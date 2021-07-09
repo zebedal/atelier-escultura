@@ -1,0 +1,143 @@
+
+.Section {
+    padding: 150px 0;
+}
+.top {
+    height: 100%;
+}
+
+.image-wrapper {
+    position: relative;
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+}
+.image-wrapper > img {
+    width: 100%;
+    height: 100%;
+}
+.title-wrapper {
+    position: absolute;
+    top: 40%;
+    text-align: left;
+}
+.social {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.social > img {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* section news */
+
+.news-wrapper { 
+    position: relative; 
+}
+.text {
+    width: 70%;
+    height: 100%;
+    background: #FFF8F1;
+    padding: 80px ;
+}
+.text-paragraph {
+    color: #808080;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.news-image-wrapper {
+    position: absolute ;
+    top: 100px;
+    right: 0;
+    width: 45%;
+    height: 100%
+}
+.news-image-wrapper > img {
+    width: 100%;
+    height: 100%;
+}
+
+/*image grid */
+
+.image-grid {
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+}
+.grid-item {
+    position: relative;
+}
+.grid-item > img {
+    width: 100%;
+    height: 100%;
+}
+.grid-item:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.grid-item:nth-child(2) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.grid-item:nth-child(3) {
+    grid-column: span 4;
+    grid-row: span 3;
+}
+.grid-item:nth-child(4) {
+    grid-column: span 4;
+    grid-row: span 3;
+}
+.grid-item:nth-child(5) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.grid-item:nth-child(6) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+@media screen and (max-width: 400px) {
+    .image-wrapper {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 79%;
+        width: 50%;
+    }
+    .title-wrapper {
+        width: 200px;
+    }
+}
+@media only screen and (min-width: 401px) and (max-width: 750px)  {
+    .image-wrapper {
+        margin-right: 50px;
+    }
+   .social {
+    left: 100%;
+    right: 0  !important;
+   }
+}
+@media screen and (max-width: 920px) {
+   .text {
+       width: 100%;
+       padding: 20px;
+   }
+   .news-image-wrapper {
+       width: 100%;
+       position: relative;
+       top: 0;
+   }
+   .text-paragraph {
+       margin-right: 0;
+   }
+}

@@ -1,0 +1,18 @@
+.outer-wrapper {
+    position: relative;
+    max-width: 1680px;
+    height: 100vh;
+    margin: 0 auto;
+}
+.inner-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+@media (max-width: 750px) {
+    .inner-wrapper {
+        width: 92%;
+    }
+}
