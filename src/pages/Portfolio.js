@@ -1,46 +1,48 @@
-import React, {useState} from 'react'
+import React, {useState, useRef} from 'react'
 import styles from './Portfolio.module.css'
-import PortfolioBox from '../components/PortfolioBox'
+import PortfolioBox from '../components/Portfolio/PortfolioBox'
 import { SRLWrapper } from "simple-react-lightbox";
 import { IMAGES } from '../data/IMAGES';
-import {useRef} from 'react'
+import {CATEGORIAS} from '../data/CATEGORIAS';
 import Spinner from '../components/UI/Spinner';
+import GalleryFilter from '../components/Portfolio/GalleryFilter';
 
 
 const Portfolio = props => {
 
-const [galleryImages, setGalleryImages] = useState(IMAGES['esculturas']);
-const [galleryLoaded, setGalleryLoaded] = useState(false);
 
 let counter = useRef(0);
+let previousFilter = useRef('esculturas')
 
-const filterGallery = filter => {
+
+const [galleryImages, setGalleryImages] = useState(IMAGES[previousFilter.current]);
+const [galleryLoaded, setGalleryLoaded] = useState(false);
+const [activeLink, setActiveLink] = useState(1);
+
+
+
+const filterGallery = (filter, id) => {
+    
+    if(previousFilter.current === filter) return;
     setGalleryImages(IMAGES[filter]);
-    setGalleryLoaded(false)
+    setGalleryLoaded(false);
+    setActiveLink(id);
+    previousFilter.current = filter;
 }
 
 const countImages = () => {
     counter.current++;
-    
-    if(counter.current == galleryImages.length) {
+    if(counter.current === galleryImages.length) {
         counter.current = 0;
-        setGalleryLoaded(true)
+        setGalleryLoaded(true);
     }
 }
-
-
 
     return (
         <section className={styles.Section}>
             <h2>Portfolio</h2>
             <div className={styles['portfolio-filters']}>
-                <span onClick={() => filterGallery('todos')}>Todos</span>
-                <span onClick={() => filterGallery('esculturas')}>Escultura</span>
-                <span onClick={() => filterGallery('pinturas')}>Pintura</span>
-                <span onClick={() => filterGallery('cenografia')}>Cenografia</span>
-                <span>Corte 2D e 3D</span>
-                <span>Impressão Digital</span>
-                <span>Últimos Trabalhos</span>
+                {CATEGORIAS.categorias.map((item, index) => <GalleryFilter filterImages={filterGallery} {...item} key={index} id={index + 1} activeLink={activeLink} />)}
             </div>
             {!galleryLoaded && <Spinner size="80"/>}
             <SRLWrapper>

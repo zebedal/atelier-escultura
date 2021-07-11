@@ -1,0 +1,9 @@
+.filter {
+    transition: opacity .5s ease;
+}
+.filter:hover {
+    opacity: .5;
+}
+.active {
+    color: #BA814E;
+}

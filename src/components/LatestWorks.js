@@ -12,8 +12,8 @@ const LatestWorks = props => (
             <img src={latest2} alt="esculturas escultura esferovite" />
         </div>
         <div className={styles['controls-wrapper']} >
-            <img src={seta} style={{transform: 'rotate(180deg)'}}/>
-            <img src={seta} />
+            <img src={seta} style={{transform: 'rotate(180deg)'}} alt=""/>
+            <img src={seta} alt=""/>
         </div>
     </div>
 )
