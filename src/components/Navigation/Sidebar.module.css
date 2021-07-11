@@ -1,0 +1,47 @@
+.sidebar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 300px;
+    background: black;
+    z-index: 999;
+    padding: 120px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all .4s ease-out;
+}
+.sidebar.open {
+    transform: translateX(0);
+    opacity: 1;
+}
+.nav-links {
+    text-decoration: none;
+    color: white;
+    font-family: montserrat-light;
+    font-size: 24px;
+    display: block;
+    margin-top: 20px;
+}
+.contacts {
+    color: white;
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.contactos-title {
+    font-size: 18px;
+    font-family: montserrat-medium;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.bold {
+    font-family: montserrat-medium;
+    font-weight: 400;
+}

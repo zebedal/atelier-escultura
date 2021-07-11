@@ -12,11 +12,12 @@
 }
 @font-face {
   font-family: 'helvetica-bold';
-  src: local('montserrat-semi-bold'), url(./assets/fonts/Helvetica-Bold.ttf) format('truetype');
+  src: local('helvetica-bold'), url(./assets/fonts/Helvetica-Bold.ttf) format('truetype');
 }
 
 body,html {
   color: #222;
+  overflow-x: hidden;
 }
 * {
   margin: 0;

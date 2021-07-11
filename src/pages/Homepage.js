@@ -7,6 +7,7 @@ import facebook from '../assets/img/facebook.svg'
 import instagram from '../assets/img/instagram.svg'
 import LatestWorks from '../components/LatestWorks'
 
+
 const Homepage = props => {
 
     return (
@@ -42,7 +43,7 @@ const Homepage = props => {
                 </div>
             </section>
 
-            <section className={`${styles.Section}`}>
+            <section className={`${styles.Section}`} style={{marginTop: '50px'}}>
 
                 <div className={styles['image-grid']} >
 

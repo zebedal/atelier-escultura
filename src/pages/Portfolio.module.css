@@ -1,0 +1,28 @@
+.Section {
+    padding: 150px 0;
+}
+.portfolio-filters {
+    margin-top: 30px;
+}
+.portfolio-filters > span {
+    display: inline-block;
+    cursor: pointer;
+    font-family: montserrat-regular;
+    font-size: 14px;
+}
+.portfolio-filters > span:not(:nth-child(1)) {
+    margin: 10px;
+}
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 50px;
+    opacity: 0;
+    
+}
+.loaded {
+    transition: opacity .5s ease;
+    opacity: 1;
+}
