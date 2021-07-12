@@ -4,6 +4,7 @@ import Homepage from './pages/Homepage';
 import Footer from './components/Footer';
 import {Route} from 'react-router-dom'
 import Portfolio from './pages/Portfolio';
+import Bio from './pages/Bio';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </Route>
         <Route path="/portfolio">
           <Portfolio />
+        </Route>
+        <Route path="/bio">
+          <Bio />
         </Route>
       </Layout>
       <Footer />
