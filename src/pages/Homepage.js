@@ -1,6 +1,11 @@
 import { Fragment } from 'react'
 import BackgroundImage from '../assets/img/background.jpg'
-import NewsImage from '../assets/img/news.jpg'
+import Escultura from '../assets/img/escultura.jpg'
+import Cenografia from '../assets/img/cenografia.jpg'
+import Impressao from '../assets/img/impressao.jpg'
+import Esferovite from '../assets/img/esferovite.jpg'
+import Acrilico from '../assets/img/acrilicos.jpg'
+import Moldes from '../assets/img/moldes.jpg'
 import styles from './Homepage.module.css'
 import Button from '../components/UI/Button'
 import facebook from '../assets/img/facebook.svg'
@@ -38,7 +43,7 @@ const Homepage = props => {
                         <Button text="Ver Trabalhos" />
                     </div>
                     <div className={styles['news-image-wrapper']}>
-                        <img src={NewsImage} />
+                        <img src={Impressao} />
                     </div>
                 </div>
             </section>
@@ -46,24 +51,23 @@ const Homepage = props => {
             <section className={`${styles.Section}`} style={{marginTop: '50px'}}>
 
                 <div className={styles['image-grid']} >
-
                     <div className={styles['grid-item']}>
-                        <img src={NewsImage} alt="" />
+                        <img src={Impressao} alt="escultura trabalhos" />
                     </div>
                     <div className={styles['grid-item']}>
-                    <img src={NewsImage} alt="" />
+                    <img src={Cenografia} alt="cenografia" />
                 </div>
                 <div className={styles['grid-item']}>
-                    <img src={NewsImage} alt="" />
+                    <img src={Escultura} alt="impressao" />
                 </div>
                 <div className={styles['grid-item']}>
-                    <img src={NewsImage} alt="" />
+                    <img src={Esferovite} alt="" />
                 </div>
                 <div className={styles['grid-item']}>
-                    <img src={NewsImage} alt="" />
+                    <img src={Acrilico} alt="" />
                 </div>
                 <div className={styles['grid-item']}>
-                    <img src={NewsImage} alt="" />
+                    <img src={Moldes} alt="" />
                 </div>
 
            

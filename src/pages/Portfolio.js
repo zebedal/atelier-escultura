@@ -22,12 +22,17 @@ const [activeLink, setActiveLink] = useState(1);
 
 
 const filterGallery = (filter, id) => {
-    
     if(previousFilter.current === filter) return;
-    setGalleryImages(IMAGES[filter]);
-    setGalleryLoaded(false);
-    setActiveLink(id);
-    previousFilter.current = filter;
+    if(!IMAGES[filter]) {
+        setGalleryImages(null);
+    } else {
+        setGalleryImages(IMAGES[filter]);
+        setGalleryLoaded(false);
+        setActiveLink(id);
+        previousFilter.current = filter;
+    }
+    
+    
 }
 
 const countImages = () => {
@@ -47,7 +52,7 @@ const countImages = () => {
             {!galleryLoaded && <Spinner size="80"/>}
             <SRLWrapper>
                {<div className={`${styles['image-gallery']}  ${galleryLoaded ? styles.loaded: ""} ` } >
-                    {galleryImages.map((img, index) => <PortfolioBox {...img} key={index} count={countImages} />)}
+                    {galleryImages ? galleryImages.map((img, index) => <PortfolioBox {...img} key={index} count={countImages} />) : "Não existem imagens para mostrar nesta categoria"}
                 </div>}
             </SRLWrapper>
         </section>

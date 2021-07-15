@@ -1,9 +1,40 @@
+.wrapper {
+    position: relative;
+}
 .filter {
     transition: opacity .5s ease;
+    white-space: nowrap;
 }
+.filter > svg {
+    transition: transform .4s ease;
+    margin-bottom: 2px;
+}
+.filter:hover > svg {
+    transform: rotate(180deg);
+}
+.wrapper:hover > .submenu-wrapper {
+    opacity: 1;
+}
+.filter.filterSub {
+    display: block;
+    margin-top: 10px;
+    color: white;
+}
+
 .filter:hover {
     opacity: .5;
 }
 .active {
     color: #BA814E;
+}
+.submenu-wrapper {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    margin-left: 0 !important;
+    background: #363636;
+    padding: 10px 10px;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity .4s ease;
 }

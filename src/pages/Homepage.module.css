@@ -144,6 +144,9 @@
         grid-column: span 5;
         grid-row: span 2;
     }
+    .title-wrapper {
+        top: 30%;  
+    }
 }
 @media only screen and (min-width: 401px) and (max-width: 750px)  {
     .image-wrapper {
@@ -153,7 +156,6 @@
     left: 100%;
     right: 0  !important;
    }
-
    
 }
 @media screen and (max-width: 920px) {
@@ -197,5 +199,8 @@
     .grid-item:nth-child(6) {
         grid-column: span 5;
         grid-row: span 1;
+    }
+    .title-wrapper {
+        top: 40%;  
     }
 }
