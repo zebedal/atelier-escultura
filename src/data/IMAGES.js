@@ -300,7 +300,6 @@ export const IMAGES = {
       caption: 'Pintura 1'
     },
   ],
-  
   corte: [
     {
       src: `${cortePath}1.jpg`,
@@ -333,6 +332,9 @@ export const IMAGES = {
       caption: 'Corte e gravação a laser de troféus'
     }
 
+  ],
+  ultimos:[
+    
   ]
 
 

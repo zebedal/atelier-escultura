@@ -15,9 +15,24 @@
    justify-content: flex-end;
    gap: 10px;
 }
-.img-wrapper > img {
+.img-wrapper > a {
     width: 50%;
     max-width: 240px;
+    position: relative;
+    transition: all .5s ease-out;
+    overflow: hidden;
+}
+.img-wrapper > a:hover {
+    opacity: .7;
+    filter: grayscale(.6);
+}
+.img-wrapper > a > img {
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease-out;
+}
+.img-wrapper > a:hover > img {
+    transform: scale(1.1);
 }
 .title-wrapper {
     display: flex;

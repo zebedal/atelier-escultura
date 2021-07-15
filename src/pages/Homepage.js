@@ -3,6 +3,7 @@ import BackgroundImage from '../assets/img/background.jpg'
 import Escultura from '../assets/img/escultura.jpg'
 import Cenografia from '../assets/img/cenografia.jpg'
 import Impressao from '../assets/img/impressao.jpg'
+import Outros from '../assets/img/outros.jpg'
 import Esferovite from '../assets/img/esferovite.jpg'
 import Acrilico from '../assets/img/acrilicos.jpg'
 import Moldes from '../assets/img/moldes.jpg'
@@ -11,6 +12,7 @@ import Button from '../components/UI/Button'
 import facebook from '../assets/img/facebook.svg'
 import instagram from '../assets/img/instagram.svg'
 import LatestWorks from '../components/LatestWorks'
+import { Link } from 'react-router-dom'
 
 
 const Homepage = props => {
@@ -40,39 +42,41 @@ const Homepage = props => {
                         <h2>Outro</h2>
                         <h3 className={styles.subtitle}>Título</h3>
                         <p className={styles['text-paragraph']}>Nullam elementum porttitor aliquam. Morbi dictum tristique nulla at sagittis. Nam imperdiet erat sit amet pharetra tempor. Quisque pharetra ipsum quis velit luctus porta. Aenean finibus mi nec urna mattis malesuada. Aliquam magna lorem, pulvinar ac ultrices ac, lobortis id nisl. Nunc at consectetur neque. Suspendisse viverra sollicitudin tortor et lacinia.</p>
-                        <Button text="Ver Trabalhos" />
+                        <Link to="/portfolio"><Button text="Ver Trabalhos" /></Link>
                     </div>
                     <div className={styles['news-image-wrapper']}>
-                        <img src={Impressao} />
+                        <img src={Outros} />
                     </div>
                 </div>
             </section>
 
-            <section className={`${styles.Section}`} style={{marginTop: '50px'}}>
+            <section className={`${styles.Section} ${styles.grid}`} style={{ marginTop: '50px' }}>
 
                 <div className={styles['image-grid']} >
                     <div className={styles['grid-item']}>
                         <img src={Impressao} alt="escultura trabalhos" />
+                        <span>Impressão</span>
                     </div>
                     <div className={styles['grid-item']}>
-                    <img src={Cenografia} alt="cenografia" />
-                </div>
-                <div className={styles['grid-item']}>
-                    <img src={Escultura} alt="impressao" />
-                </div>
-                <div className={styles['grid-item']}>
-                    <img src={Esferovite} alt="" />
-                </div>
-                <div className={styles['grid-item']}>
-                    <img src={Acrilico} alt="" />
-                </div>
-                <div className={styles['grid-item']}>
-                    <img src={Moldes} alt="" />
-                </div>
-
-           
-
-            
+                        <img src={Cenografia} alt="cenografia" />
+                        <span>Cenografia</span>
+                    </div>
+                    <div className={styles['grid-item']}>
+                        <img src={Escultura} alt="impressao" />
+                        <span>Escultura</span>
+                    </div>
+                    <div className={styles['grid-item']}>
+                        <img src={Esferovite} alt="" />
+                        <span>Esferovite</span>
+                    </div>
+                    <div className={styles['grid-item']}>
+                        <img src={Acrilico} alt="" />
+                        <span>Acrílicos</span>
+                    </div>
+                    <div className={styles['grid-item']}>
+                        <img src={Moldes} alt="" />
+                        <span>Moldes</span>
+                    </div>
                 </div>
             </section>
 
