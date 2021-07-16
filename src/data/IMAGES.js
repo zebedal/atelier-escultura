@@ -3,14 +3,14 @@ const pinturaPath = 'assets/img/portfolio/pintura/';
 const cenografiaPath = 'assets/img/portfolio/cenografia/';
 const acrilicosPath = 'assets/img/portfolio/acrilicos/';
 const cortePath = 'assets/img/portfolio/corte/';
-const corteEsferovitePath = 'assets/img/portfolio/corte/esferovite';
-const impressaoPath = 'assets/img/portfolio/impressao';
-const laserPath = 'assets/img/portfolio/corte/laser/';
+const corteEsferovitePath = 'assets/img/portfolio/corte/esferovite/';
+const impressaoPath = 'assets/img/portfolio/impressao/';
 const barroPath = 'assets/img/portfolio/esculturas/barro/';
 const esferovitePath = 'assets/img/portfolio/esculturas/esferovite/';
 const fibraPath = 'assets/img/portfolio/esculturas/fibra/';
 const gessoPath = 'assets/img/portfolio/esculturas/gesso/';
 const madeiraPath = 'assets/img/portfolio/esculturas/madeira/';
+const moldesPath = 'assets/img/portfolio/moldes/';
 
 export const IMAGES = {
   esculturas: [
@@ -278,33 +278,104 @@ export const IMAGES = {
     {
       src: `${impressaoPath}1.jpg`,
       srcGrid: `${impressaoPath}/grid/1.jpg`,
-      caption: 'Pintura 1'
+      caption: 'Impressão digital de lonas e aplicação para cenário'
+    },
+    {
+      src: `${impressaoPath}2.jpg`,
+      srcGrid: `${impressaoPath}/grid/2.jpg`,
+      caption: 'Aplicação de imagem digital em parede'
+    },
+    {
+      src: `${impressaoPath}3.jpg`,
+      srcGrid: `${impressaoPath}/grid/3.jpg`,
+      caption: 'Aplicação de papel de parede para publicidade'
+    },
+    {
+      src: `${impressaoPath}4.jpg`,
+      srcGrid: `${impressaoPath}/grid/4.jpg`,
+      caption: 'Aplicação de papel de parede para publicidade'
+    },
+    {
+      src: `${impressaoPath}5.jpg`,
+      srcGrid: `${impressaoPath}/grid/5.jpg`,
+      caption: 'Aplicação de papel de parede para publicidade'
+    },
+    {
+      src: `${impressaoPath}6.jpg`,
+      srcGrid: `${impressaoPath}/grid/6.jpg`,
+      caption: 'Aplicação de papel de parede para publicidade'
+    },
+    {
+      src: `${impressaoPath}7.jpg`,
+      srcGrid: `${impressaoPath}/grid/7.jpg`,
+      caption: 'Aplicação de vinil em autocarro para publicidade'
+    },
+    {
+      src: `${impressaoPath}8.jpg`,
+      srcGrid: `${impressaoPath}/grid/8.jpg`,
+      caption: 'Aplicação de vinil em viatura para publicidade'
+    },
+    {
+      src: `${impressaoPath}9.jpg`,
+      srcGrid: `${impressaoPath}/grid/9.jpg`,
+      caption: 'Aplicação de vinil impresso em cenário'
+    },
+    {
+      src: `${impressaoPath}10.jpg`,
+      srcGrid: `${impressaoPath}/grid/10.jpg`,
+      caption: 'Aplicação de vinil para publicidade'
+    },
+    {
+      src: `${impressaoPath}11.jpg`,
+      srcGrid: `${impressaoPath}/grid/11.jpg`,
+      caption: 'Aplicação de vinil'
+    },
+    {
+      src: `${impressaoPath}12.jpg`,
+      srcGrid: `${impressaoPath}/grid/12.jpg`,
+      caption: 'Impressão digital e aplicação de vinil para programa'
+    },
+    {
+      src: `${impressaoPath}13.jpg`,
+      srcGrid: `${impressaoPath}/grid/13.jpg`,
+      caption: 'Impressão digital e aplicação de vinil para publicidade'
+    },
+    {
+      src: `${impressaoPath}14.jpg`,
+      srcGrid: `${impressaoPath}/grid/14.jpg`,
+      caption: 'Impressão digital e aplicação de vinil'
+    },
+    {
+      src: `${impressaoPath}15.jpg`,
+      srcGrid: `${impressaoPath}/grid/15.jpg`,
+      caption: 'Impressão digital e aplicação em cenário'
+    },
+    {
+      src: `${impressaoPath}16.jpg`,
+      srcGrid: `${impressaoPath}/grid/16.jpg`,
+      caption: 'Impressão digital, aplicação e patine'
+    },
+    {
+      src: `${impressaoPath}17.jpg`,
+      srcGrid: `${impressaoPath}/grid/17.jpg`,
+      caption: 'Impressão digital'
+    },
+    {
+      src: `${impressaoPath}18.jpg`,
+      srcGrid: `${impressaoPath}/grid/18.jpg`,
+      caption: 'Impressão e aplicação de vinil para publicidade'
+    },
+    {
+      src: `${impressaoPath}19.jpg`,
+      srcGrid: `${impressaoPath}/grid/19.jpg`,
+      caption: 'Vinil aplicado em viatura para publicidade'
     }
   ],
   cenografia: [
     {
       src: `${cenografiaPath}1.jpg`,
-      caption: 'Pintura 1'
-    },
-    {
-      src: `${cenografiaPath}2.jpg`,
-      caption: 'Pintura 1'
-    },
-    {
-      src: `${cenografiaPath}3.jpg`,
-      caption: 'Pintura 1'
-    },
-    {
-      src: `${cenografiaPath}4.jpg`,
-      caption: 'Pintura 1'
-    },
-    {
-      src: `${cenografiaPath}5.jpg`,
-      caption: 'Pintura 1'
-    },
-    {
-      src: `${cenografiaPath}6.jpg`,
-      caption: 'Pintura 1'
+      srcGrid: `${cenografiaPath}grid/1.jpg`,
+      caption: 'Escultura 1'
     },
   ],
   corte: [
@@ -337,10 +408,14 @@ export const IMAGES = {
       src: `${cortePath}6.jpg`,
       srcGrid: `${cortePath}/grid/6.jpg`,
       caption: 'Corte e gravação a laser de troféus'
+    },
+    {
+      src: `${cortePath}7.jpg`,
+      srcGrid: `${cortePath}/grid/7.jpg`,
+      caption: 'Corte letras em acrílico e madeira a laser para publicidade'
     }
   ],
   
-
   ultimos:[
     
   ],
@@ -683,6 +758,58 @@ export const IMAGES = {
       srcGrid: `${madeiraPath}grid/1.jpg`,
       caption: 'Escultura em madeira de pinho'
     } 
+  ],
+  moldes: [
+    {
+      src: `${moldesPath}1.jpg`,
+      srcGrid: `${moldesPath}grid/1.jpg`,
+      caption: 'Molde de busto'
+    },
+    {
+      src: `${moldesPath}2.jpg`,
+      srcGrid: `${moldesPath}grid/2.jpg`,
+      caption: 'Molde em silicone e gesso'
+    },
+    {
+      src: `${moldesPath}3.jpg`,
+      srcGrid: `${moldesPath}grid/3.jpg`,
+      caption: 'Produção de molde em silicone para busto em fibra'
+    },
+    {
+      src: `${moldesPath}4.jpg`,
+      srcGrid: `${moldesPath}grid/4.jpg`,
+      caption: 'Reprodução de mão e braço em gesso através de molde de alginato'
+    },
+    {
+      src: `${moldesPath}5.jpg`,
+      srcGrid: `${moldesPath}grid/5.jpg`,
+      caption: 'Reprodução de mão e braço em gesso através de molde de alginato'
+    },
+    {
+      src: `${moldesPath}6.jpg`,
+      srcGrid: `${moldesPath}grid/6.jpg`,
+      caption: 'Reprodução de mão e braço em gesso através de molde de alginato'
+    },
+    {
+      src: `${moldesPath}7.jpg`,
+      srcGrid: `${moldesPath}grid/7.jpg`,
+      caption: 'Reprodução de mão e braço em gesso através de molde de alginato'
+    },
+    {
+      src: `${moldesPath}8.jpg`,
+      srcGrid: `${moldesPath}grid/8.jpg`,
+      caption: 'Reprodução de mão e braço em gesso através de molde de alginato'
+    },
+    {
+      src: `${moldesPath}9.jpg`,
+      srcGrid: `${moldesPath}grid/9.jpg`,
+      caption: 'Tiragem de peças em fibra'
+    },
+    {
+      src: `${moldesPath}10.jpg`,
+      srcGrid: `${moldesPath}grid/10.jpg`,
+      caption: 'Tiragem de peças em fibra'
+    },
   ]
 
 

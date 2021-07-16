@@ -50,7 +50,7 @@ export const CATEGORIAS = {
         {
             categoria: 'Corte 2D e 3D',
             filtro: 'corte',
-            id: 4,
+            id: 5,
             subCategorias: [
                 {
                     categoria: 'Gravação',
@@ -70,9 +70,19 @@ export const CATEGORIAS = {
             ]
         },
         {
+            categoria: 'Adereços de Cenografia',
+            filtro: 'cenografia',
+            id: 6,
+        },
+        {
+            categoria: 'Moldes',
+            filtro: 'moldes',
+            id: 7,
+        },
+        {
             categoria: 'Últimos Trabalhos',
             filtro: 'ultimos',
-            id: 5
+            id: 8
         }
     ],
     activeLink: null
