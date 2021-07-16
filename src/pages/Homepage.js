@@ -53,30 +53,42 @@ const Homepage = props => {
             <section className={`${styles.Section} ${styles.grid}`} style={{ marginTop: '50px' }}>
 
                 <div className={styles['image-grid']} >
-                    <div className={styles['grid-item']}>
-                        <img src={Impressao} alt="escultura trabalhos" />
-                        <span>Impressão</span>
-                    </div>
-                    <div className={styles['grid-item']}>
-                        <img src={Cenografia} alt="cenografia" />
-                        <span>Cenografia</span>
-                    </div>
-                    <div className={styles['grid-item']}>
-                        <img src={Escultura} alt="impressao" />
-                        <span>Escultura</span>
-                    </div>
-                    <div className={styles['grid-item']}>
-                        <img src={Esferovite} alt="" />
-                        <span>Esferovite</span>
-                    </div>
-                    <div className={styles['grid-item']}>
-                        <img src={Acrilico} alt="" />
-                        <span>Acrílicos</span>
-                    </div>
-                    <div className={styles['grid-item']}>
-                        <img src={Moldes} alt="" />
-                        <span>Moldes</span>
-                    </div>
+                    <Link to={{ pathname: '/portfolio', state:'impressao', id:4}}>
+                        <div className={styles['grid-item']}>
+                            <img src={Impressao} alt="escultura trabalhos" />
+                            <div>Impressão</div>
+                        </div>
+                    </Link>
+                    <Link to={{ pathname: '/portfolio', state:'cenografia', id: ""}}>
+                        <div className={styles['grid-item']}>
+                            <img src={Cenografia} alt="cenografia" />
+                            <div>Cenografia</div>
+                        </div>
+                    </Link>
+                    <Link to={{ pathname: '/portfolio', state: 'esculturas', id: 1}}>
+                        <div className={styles['grid-item']}>
+                            <img src={Escultura} alt="esculturas" />
+                            <div>Escultura</div>
+                        </div>
+                    </Link>
+                    <Link to={{ pathname: '/portfolio', state: 'esferovite', id:1}}>
+                        <div className={styles['grid-item']}>
+                            <img src={Esferovite} alt="esferovite esculturas" />
+                            <div>Esferovite</div>
+                        </div>
+                    </Link>
+                    <Link to={{ pathname: '/portfolio', state: 'acrilicos', id:3}}>
+                        <div className={styles['grid-item']}>
+                            <img src={Acrilico} alt="" />
+                            <div>Acrílicos</div>
+                        </div>
+                    </Link>
+                    <Link to={{ pathname: '/portfolio', state: 'moldes', id:"" }}>
+                        <div className={styles['grid-item']}>
+                            <img src={Moldes} alt="moldes" />
+                            <div>Moldes</div>
+                        </div>
+                    </Link>
                 </div>
             </section>
 

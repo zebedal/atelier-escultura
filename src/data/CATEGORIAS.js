@@ -3,7 +3,34 @@ export const CATEGORIAS = {
         {
             categoria: 'Escultura',
             filtro: 'esculturas',
-            id: 1
+            id: 1,
+            subCategorias: [
+                {
+                    categoria: 'Barro',
+                    filtro: 'barro',
+                    id: 1
+                },
+                {
+                    categoria: 'Esferovite',
+                    filtro: 'esferovite',
+                    id: 2
+                },
+                {
+                    categoria: 'Fibra',
+                    filtro: 'fibra',
+                    id: 3
+                },
+                {
+                    categoria: 'Gesso',
+                    filtro: 'gesso',
+                    id: 4
+                },
+                {
+                    categoria: 'Madeira',
+                    filtro: 'madeira',
+                    id: 5
+                },
+            ]
         },
         {
             categoria: 'Pintura',
@@ -26,8 +53,8 @@ export const CATEGORIAS = {
             id: 4,
             subCategorias: [
                 {
-                    categoria: 'Laser',
-                    filtro: 'laser',
+                    categoria: 'Gravação',
+                    filtro: 'gravacao',
                     id: 6
                 },
                 {
@@ -36,8 +63,8 @@ export const CATEGORIAS = {
                     id: 7
                 },
                 {
-                    categoria: 'Esferovite',
-                    filtro: 'esferovite',
+                    categoria: 'CNC Esferovite',
+                    filtro: 'corte_esferovite',
                     id: 8
                 }
             ]

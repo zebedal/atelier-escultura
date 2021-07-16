@@ -75,60 +75,67 @@
     gap: 5px;
     margin-top: 50px;
 }
-.grid-item {
+.image-grid > a {
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    text-align: center;
+    z-index: 8;
+}
+.image-grid > a:hover > .grid-item > img {
+    transform: scale(1.1);
+    filter: grayscale(.7);
+}
+.grid-item {
+    width: 100%;
+    height: 100%;
 }
 .grid-item::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    width: 30px;
-    height: 100%;
+    width: 100%;
+    height: 40px;
      background: rgba(0,0,0, .6);
+    z-index: 9;
 }
 .grid-item > img {
     width: 100%;
     height: 100%;
+    transition: all .5s linear;
 }
-.grid-item > span {
-    position: absolute;
-    top: 50%;
-    left: calc(1% - 25px);
-    transform: translate(0, -50%);
-    color: white;
-    font-family: montserrat-regular;
-    text-transform: uppercase;
-    font-size: 13px;
-    /* writing-mode: tb; */
-    /* text-orientation: upright; */
-    white-space: nowrap;
-    transform: rotate(-90deg);
+.grid-item > div {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  color: white;
+  font-family: montserrat-regular;
+  z-index: 9;
 }
 
-.grid-item:nth-child(1) {
+.image-grid > a:nth-child(1) {
     grid-column: span 2;
     grid-row: span 2;
 }
-.grid-item:nth-child(2) {
+.image-grid > a:nth-child(2) {
     grid-column: span 2;
     grid-row: span 2;
 }
-.grid-item:nth-child(3) {
+.image-grid > a:nth-child(3) {
     grid-column: span 5;
     grid-row: span 3;
 }
-.grid-item:nth-child(4) {
+.image-grid > a:nth-child(4) {
     grid-column: span 4;
     grid-row: span 3;
 }
-.grid-item:nth-child(5) {
+.image-grid > a:nth-child(5) {
     grid-column: span 3;
     grid-row: span 2;
 }
-.grid-item:nth-child(6) {
+.image-grid > a:nth-child(6) {
     grid-column: span 2;
     grid-row: span 2;
 }
@@ -179,7 +186,7 @@
         grid-template-columns: repeat(6, 1fr) !important;
         grid-template-rows: repeat(3, 1fr) !important;
     }
-    .grid-item {
+    .image-grid > a {
         grid-row: span 1 !important;
         grid-column: span 3 !important;
     }

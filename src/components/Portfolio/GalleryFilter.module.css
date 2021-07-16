@@ -5,6 +5,9 @@
     transition: opacity .5s ease;
     white-space: nowrap;
 }
+.filter.top {
+    padding: 10px 0;
+}
 .filter > svg {
     transition: transform .4s ease;
     margin-bottom: 2px;
@@ -13,6 +16,7 @@
     transform: rotate(180deg);
 }
 .wrapper:hover > .submenu-wrapper {
+    pointer-events: all !important;
     opacity: 1;
 }
 .filter.filterSub {
@@ -37,4 +41,5 @@
     z-index: 999;
     opacity: 0;
     transition: opacity .4s ease;
+    pointer-events: none;
 }

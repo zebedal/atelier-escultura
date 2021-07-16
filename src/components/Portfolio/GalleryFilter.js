@@ -6,14 +6,11 @@ const GalleryFilter = ({filterImages, categoria, filtro, id, activeLink, subCate
     const handleClick = (filtro, id) => {
         filterImages(filtro, id);
     }
-
-    console.log(subCategorias)
-
     return (
     <div className={styles.wrapper}>
-        <span className={`${styles.filter} ${activeLink === id ? styles.active : ""}`} onClick={() => handleClick(filtro, id)}>{categoria} {subCategorias ? <Chevron down={true} /> : null} </span>
+        <span className={`${styles.filter} ${styles.top} ${activeLink === id ? styles.active : ""}`} onClick={() => handleClick(filtro, id)}>{categoria} {subCategorias ? <Chevron down={true} /> : null} </span>
         {subCategorias ? <div className={styles['submenu-wrapper']}>
-             {subCategorias.map(item => <span className={`${styles.filter} ${styles.filterSub} ${activeLink === item.id ? styles.active : ""}`} onClick={() => handleClick(subCategorias.filtro, subCategorias.id)} key={item.id}>{item.categoria}</span>)}
+             {subCategorias.map(item => <span className={`${styles.filter} ${styles.filterSub} ${activeLink === item.id ? styles.active : ""}`} onClick={() => handleClick(item.filtro, id)} key={item.id}>{item.categoria}</span>)}
         </div> : ""}
     </div>
     )
