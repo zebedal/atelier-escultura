@@ -13,22 +13,24 @@ import facebook from '../assets/img/facebook.svg'
 import instagram from '../assets/img/instagram.svg'
 import LatestWorks from '../components/LatestWorks'
 import { Link } from 'react-router-dom'
+import {motion} from 'framer-motion'
 
 
 const Homepage = props => {
 
-    return (
 
+    return (
         <Fragment>
-            <section className={styles.top}>
+            <section className={styles.top} >
                 <div className={styles['image-wrapper']}>
                     <img src={BackgroundImage} alt="escultor montijo ricardo contramestre" />
                 </div>
-                <div className={styles['title-wrapper']}>
+                <motion.div className={styles['title-wrapper']} 
+                >
                     <h5>ATELIER DE ESCULTURA</h5>
                     <h1>Ricardo <br />Contramestre</h1>
                     <Button text="contactar" />
-                </div>
+                </motion.div>
                 <div className={styles.social}>
                     <img src={facebook} alt="" />
                     <img src={instagram} alt="" />

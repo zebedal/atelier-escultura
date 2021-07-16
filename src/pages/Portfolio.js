@@ -16,7 +16,7 @@ const Portfolio = props => {
     let counter = useRef(0);
     let previousFilter = useRef('esculturas')
 
-    console.log(loc.state)
+    
     const [galleryImages, setGalleryImages] = useState(loc.state ? IMAGES[loc.state] : IMAGES[previousFilter.current]);
     const [galleryLoaded, setGalleryLoaded] = useState(false);
     const [activeLink, setActiveLink] = useState(loc.id ? loc.id : 1);
@@ -42,6 +42,8 @@ const Portfolio = props => {
             setGalleryLoaded(true);
         }
     }
+
+    
 
     return (
         <section className={styles.Section}>
