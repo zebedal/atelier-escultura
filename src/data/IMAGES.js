@@ -14,21 +14,13 @@ const moldesPath = 'assets/img/portfolio/moldes/';
 
 export const IMAGES = {
   esculturas: [
-    {
-      src: `${esculturasPath}1.jpg`,
-      srcGrid: `${esculturasPath}grid/1.jpg`,
-      caption: 'Escultura 1'
-    },
+    
     {
       src: `${esculturasPath}2.jpg`,
       srcGrid: `${esculturasPath}grid/2.jpg`,
       caption: 'Escultura 1'
     },
-    {
-      src: `${esculturasPath}3.jpg`,
-      srcGrid: `${esculturasPath}grid/3.jpg`,
-      caption: 'Escultura 1'
-    },
+   
     {
       src: `${esculturasPath}4.jpg`,
       srcGrid: `${esculturasPath}grid/4.jpg`,
@@ -44,11 +36,7 @@ export const IMAGES = {
       srcGrid: `${esculturasPath}grid/6.jpg`,
       caption: 'Escultura 1'
     },
-    {
-      src: `${esculturasPath}7.jpg`,
-      srcGrid: `${esculturasPath}grid/7.jpg`,
-      caption: 'Escultura 1'
-    },
+    
     {
       src: `${esculturasPath}8.jpg`,
       srcGrid: `${esculturasPath}grid/8.jpg`,
@@ -375,8 +363,454 @@ export const IMAGES = {
     {
       src: `${cenografiaPath}1.jpg`,
       srcGrid: `${cenografiaPath}grid/1.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Imitação casca de árvore para publicidade'
     },
+    {
+      src: `${cenografiaPath}2.jpg`,
+      srcGrid: `${cenografiaPath}grid/2.jpg`,
+      caption: 'Adereço de cenografia'
+    },
+    {
+      src: `${cenografiaPath}3.jpg`,
+      srcGrid: `${cenografiaPath}grid/3.jpg`,
+      caption: 'Imitação parede tijolo burro em esferovite'
+    },
+    {
+      src: `${cenografiaPath}4.jpg`,
+      srcGrid: `${cenografiaPath}grid/4.jpg`,
+      caption: 'Adereço em esferovite com patine para novela'
+    },
+    {
+      src: `${cenografiaPath}5.jpg`,
+      srcGrid: `${cenografiaPath}grid/5.jpg`,
+      caption: 'Adereço em esferovite museu SLB'
+    },
+    {
+      src: `${cenografiaPath}6.jpg`,
+      srcGrid: `${cenografiaPath}grid/6.jpg`,
+      caption: 'Adereço em esferovite museu SLB'
+    },
+    {
+      src: `${cenografiaPath}7.jpg`,
+      srcGrid: `${cenografiaPath}grid/7.jpg`,
+      caption: 'Adereço em esferovite museu SLB'
+    },
+    {
+      src: `${cenografiaPath}8.jpg`,
+      srcGrid: `${cenografiaPath}grid/8.jpg`,
+      caption: 'Adereço em esferovite para enfeite janela'
+    },
+    {
+      src: `${cenografiaPath}9.jpg`,
+      srcGrid: `${cenografiaPath}grid/9.jpg`,
+      caption: 'Adereço em esferovite para filme'
+    },
+    {
+      src: `${cenografiaPath}10.jpg`,
+      srcGrid: `${cenografiaPath}grid/10.jpg`,
+      caption: 'Adereço em esferovite para programa'
+    },
+    {
+      src: `${cenografiaPath}11.jpg`,
+      srcGrid: `${cenografiaPath}grid/11.jpg`,
+      caption: 'Adereço em esferovite para publicidade'
+    },
+    {
+      src: `${cenografiaPath}12.jpg`,
+      srcGrid: `${cenografiaPath}grid/12.jpg`,
+      caption: 'Adereço em esferovite pintado e patinado'
+    },
+    {
+      src: `${cenografiaPath}13.jpg`,
+      srcGrid: `${cenografiaPath}grid/13.jpg`,
+      caption: 'Adereço em gesso para cenário'
+    },
+    {
+      src: `${cenografiaPath}14.jpg`,
+      srcGrid: `${cenografiaPath}grid/14.jpg`,
+      caption: 'Adereço falso para efeitos especiais'
+    },
+    {
+      src: `${cenografiaPath}15.jpg`,
+      srcGrid: `${cenografiaPath}grid/15.jpg`,
+      caption: 'Adereço para série'
+    },
+    {
+      src: `${cenografiaPath}16.jpg`,
+      srcGrid: `${cenografiaPath}grid/16.jpg`,
+      caption: 'Bacalhau em latex para efeito especial'
+    },
+    {
+      src: `${cenografiaPath}17.jpg`,
+      srcGrid: `${cenografiaPath}grid/17.jpg`,
+      caption: 'Bacalhau em latex para efeito especial'
+    },
+    {
+      src: `${cenografiaPath}18.jpg`,
+      srcGrid: `${cenografiaPath}grid/18.jpg`,
+      caption: 'Adereços em esferovite para exposição temática'
+    },
+    {
+      src: `${cenografiaPath}19.jpg`,
+      srcGrid: `${cenografiaPath}grid/19.jpg`,
+      caption: 'Adereços em esferovite para marchas de Lisboa'
+    },
+    {
+      src: `${cenografiaPath}20.jpg`,
+      srcGrid: `${cenografiaPath}grid/20.jpg`,
+      caption: 'Adereços em esferovite para marchas de Lisboa'
+    },
+    {
+      src: `${cenografiaPath}21.jpg`,
+      srcGrid: `${cenografiaPath}grid/21.jpg`,
+      caption: 'Adereços em esferovite para marchas de Lisboa'
+    },
+    {
+      src: `${cenografiaPath}22.jpg`,
+      srcGrid: `${cenografiaPath}grid/22.jpg`,
+      caption: 'Adereços em esferovite para publicidade'
+    },
+    {
+      src: `${cenografiaPath}23.jpg`,
+      srcGrid: `${cenografiaPath}grid/23.jpg`,
+      caption: 'Adereços em latex'
+    },
+    {
+      src: `${cenografiaPath}24.jpg`,
+      srcGrid: `${cenografiaPath}grid/24.jpg`,
+      caption: 'Adereços em latex'
+    },
+    {
+      src: `${cenografiaPath}25.jpg`,
+      srcGrid: `${cenografiaPath}grid/25.jpg`,
+      caption: 'Adereços em latex'
+    },
+    {
+      src: `${cenografiaPath}26.jpg`,
+      srcGrid: `${cenografiaPath}grid/26.jpg`,
+      caption: 'Adereços em latex'
+    },
+    {
+      src: `${cenografiaPath}27.jpg`,
+      srcGrid: `${cenografiaPath}grid/27.jpg`,
+      caption: 'Adereços em latex'
+    },
+    {
+      src: `${cenografiaPath}28.jpg`,
+      srcGrid: `${cenografiaPath}grid/28.jpg`,
+      caption: 'Barro seco para efeito especial'
+    },
+    {
+      src: `${cenografiaPath}29.jpg`,
+      srcGrid: `${cenografiaPath}grid/29.jpg`,
+      caption: 'Baú esferovite compatine'
+    },
+    {
+      src: `${cenografiaPath}30.jpg`,
+      srcGrid: `${cenografiaPath}grid/30.jpg`,
+      caption: 'Baú esferovite'
+    },
+    {
+      src: `${cenografiaPath}31.jpg`,
+      srcGrid: `${cenografiaPath}grid/31.jpg`,
+      caption: 'Cabeça de T-Rex para programa em esferovite'
+    },
+    {
+      src: `${cenografiaPath}32.jpg`,
+      srcGrid: `${cenografiaPath}grid/32.jpg`,
+      caption: 'Cabeças de lobo em latex e pintura acrílica'
+    },
+    {
+      src: `${cenografiaPath}33.jpg`,
+      srcGrid: `${cenografiaPath}grid/33.jpg`,
+      caption: 'Caixa multibanco falsa com parede cenografada para publicidade'
+    },
+    {
+      src: `${cenografiaPath}34.jpg`,
+      srcGrid: `${cenografiaPath}grid/34.jpg`,
+      caption: 'Campa em esferovite'
+    },
+    {
+      src: `${cenografiaPath}35.jpg`,
+      srcGrid: `${cenografiaPath}grid/35.jpg`,
+      caption: 'Capacete escafandro'
+    },
+    {
+      src: `${cenografiaPath}36.jpg`,
+      srcGrid: `${cenografiaPath}grid/36.jpg`,
+      caption: 'Capacete escafandro em pvc para cenário'
+    },
+    {
+      src: `${cenografiaPath}37.jpg`,
+      srcGrid: `${cenografiaPath}grid/37.jpg`,
+      caption: 'Caracóis falsos para efeito especial'
+    },
+    {
+      src: `${cenografiaPath}38.jpg`,
+      srcGrid: `${cenografiaPath}grid/38.jpg`,
+      caption: 'Carro alegórico dia mundial da criança'
+    },
+    {
+      src: `${cenografiaPath}39.jpg`,
+      srcGrid: `${cenografiaPath}grid/39.jpg`,
+      caption: 'Carro alegórico dia mundial da criança'
+    },
+    {
+      src: `${cenografiaPath}40.jpg`,
+      srcGrid: `${cenografiaPath}grid/40.jpg`,
+      caption: 'Chave falsa para efeito especial'
+    },
+    {
+      src: `${cenografiaPath}41.jpg`,
+      srcGrid: `${cenografiaPath}grid/41.jpg`,
+      caption: 'Colunas e arcos em esferovite a imitar pedra para cenário'
+    },
+    {
+      src: `${cenografiaPath}42.jpg`,
+      srcGrid: `${cenografiaPath}grid/42.jpg`,
+      caption: 'Colunas em esferovite para publicidade'
+    },
+    {
+      src: `${cenografiaPath}43.jpg`,
+      srcGrid: `${cenografiaPath}grid/43.jpg`,
+      caption: 'Construção de carrocaria para carrinho lunar'
+    },
+    {
+      src: `${cenografiaPath}44.jpg`,
+      srcGrid: `${cenografiaPath}grid/44.jpg`,
+      caption: 'Adereços tipo sofás a imitar esculturas na areia para publicidade'
+    },
+    {
+      src: `${cenografiaPath}45.jpg`,
+      srcGrid: `${cenografiaPath}grid/45.jpg`,
+      caption: 'Cabeça de lobo para publicidade'
+    },
+    {
+      src: `${cenografiaPath}46.jpg`,
+      srcGrid: `${cenografiaPath}grid/46.jpg`,
+      caption: 'Cabeça de lobo para publicidade'
+    },
+    {
+      src: `${cenografiaPath}47.jpg`,
+      srcGrid: `${cenografiaPath}grid/47.jpg`,
+      caption: 'Decoração com massas de barrar pintura e patine'
+    },
+    {
+      src: `${cenografiaPath}48.jpg`,
+      srcGrid: `${cenografiaPath}grid/48.jpg`,
+      caption: 'Decoração de estabelecimento com parede tijolo de burro em esferovite e massa com patine '
+    },
+    {
+      src: `${cenografiaPath}49.jpg`,
+      srcGrid: `${cenografiaPath}grid/49.jpg`,
+      caption: 'Decoração em esferovite para parede'
+    },
+    {
+      src: `${cenografiaPath}50.jpg`,
+      srcGrid: `${cenografiaPath}grid/50.jpg`,
+      caption: 'Decoração estilo egípcio em baixo relevo'
+    },
+    {
+      src: `${cenografiaPath}51.jpg`,
+      srcGrid: `${cenografiaPath}grid/51.jpg`,
+      caption: 'Decoração estilo egípcio em baixo relevo'
+    },
+    {
+      src: `${cenografiaPath}52.jpg`,
+      srcGrid: `${cenografiaPath}grid/52.jpg`,
+      caption: 'Decoração estilo egípcio em escultura'
+    },
+    {
+      src: `${cenografiaPath}53.jpg`,
+      srcGrid: `${cenografiaPath}grid/53.jpg`,
+      caption: 'Decoração estilo egípcio em baixo relevo'
+    },
+    {
+      src: `${cenografiaPath}54.jpg`,
+      srcGrid: `${cenografiaPath}grid/54.jpg`,
+      caption: 'Dummie para efeito especial'
+    },
+    {
+      src: `${cenografiaPath}55.jpg`,
+      srcGrid: `${cenografiaPath}grid/55.jpg`,
+      caption: 'Dummie para efeito especial'
+    },
+    {
+      src: `${cenografiaPath}56.jpg`,
+      srcGrid: `${cenografiaPath}grid/56.jpg`,
+      caption: 'Gelado falso para efeito especial'
+    },
+    {
+      src: `${cenografiaPath}57.jpg`,
+      srcGrid: `${cenografiaPath}grid/57.jpg`,
+      caption: 'Iglo em esferovite'
+    },
+    {
+      src: `${cenografiaPath}58.jpg`,
+      srcGrid: `${cenografiaPath}grid/58.jpg`,
+      caption: 'Imitação de ferro lareira para efeito especial'
+    },
+    {
+      src: `${cenografiaPath}59.jpg`,
+      srcGrid: `${cenografiaPath}grid/59.jpg`,
+      caption: 'Imitação de fonte em esferovite muito patinada'
+    },
+    {
+      src: `${cenografiaPath}60.jpg`,
+      srcGrid: `${cenografiaPath}grid/60.jpg`,
+      caption: 'Imitação de gelo numa arca para efeitos especiais em publicidade'
+    },
+    {
+      src: `${cenografiaPath}61.jpg`,
+      srcGrid: `${cenografiaPath}grid/61.jpg`,
+      caption: 'Imitação de pedra em esferovite para cenário'
+    },
+    {
+      src: `${cenografiaPath}62.jpg`,
+      srcGrid: `${cenografiaPath}grid/62.jpg`,
+      caption: 'Imitação de pedra para cenário'
+    },
+    {
+      src: `${cenografiaPath}63.jpg`,
+      srcGrid: `${cenografiaPath}grid/63.jpg`,
+      caption: 'Imitação de pedra para cenário'
+    },
+    {
+      src: `${cenografiaPath}64.jpg`,
+      srcGrid: `${cenografiaPath}grid/64.jpg`,
+      caption: 'Imitação de pedra para cenário'
+    },
+    {
+      src: `${cenografiaPath}65.jpg`,
+      srcGrid: `${cenografiaPath}grid/65.jpg`,
+      caption: 'Imitação de pedra para cenário'
+    },
+    {
+      src: `${cenografiaPath}66.jpg`,
+      srcGrid: `${cenografiaPath}grid/66.jpg`,
+      caption: 'Imitação de pedra para publicidade'
+    },
+    {
+      src: `${cenografiaPath}67.jpg`,
+      srcGrid: `${cenografiaPath}grid/67.jpg`,
+      caption: 'Imitação de tijolo inglês para cenário'
+    },
+    {
+      src: `${cenografiaPath}68.jpg`,
+      srcGrid: `${cenografiaPath}grid/68.jpg`,
+      caption: 'Máscara em resina acrílica para publicidade'
+    },
+    {
+      src: `${cenografiaPath}69.jpg`,
+      srcGrid: `${cenografiaPath}grid/69.jpg`,
+      caption: 'Mockup para publicidade'
+    },
+    {
+      src: `${cenografiaPath}70.jpg`,
+      srcGrid: `${cenografiaPath}grid/70.jpg`,
+      caption: 'Muro de pedra em esferovite para publicidade'
+    },
+    {
+      src: `${cenografiaPath}71.jpg`,
+      srcGrid: `${cenografiaPath}grid/71.jpg`,
+      caption: 'Parece cravos em tecido para museu'
+    },
+    {
+      src: `${cenografiaPath}72.jpg`,
+      srcGrid: `${cenografiaPath}grid/72.jpg`,
+      caption: 'Parece em fibra para museu'
+    },
+    {
+      src: `${cenografiaPath}73.jpg`,
+      srcGrid: `${cenografiaPath}grid/73.jpg`,
+      caption: 'Parece em tijolo burro patinado para publicidade'
+    },
+    {
+      src: `${cenografiaPath}74.jpg`,
+      srcGrid: `${cenografiaPath}grid/74.jpg`,
+      caption: 'Parece a imitar pedra para cenário'
+    },
+    {
+      src: `${cenografiaPath}75.jpg`,
+      srcGrid: `${cenografiaPath}grid/75.jpg`,
+      caption: 'Construção de disco voador FX para empresa de construção de cenários'
+    },
+    {
+      src: `${cenografiaPath}76.jpg`,
+      srcGrid: `${cenografiaPath}grid/76.jpg`,
+      caption: 'Peça decorativa dia de los muertos para publicidade'
+    },
+    {
+      src: `${cenografiaPath}77.jpg`,
+      srcGrid: `${cenografiaPath}grid/77.jpg`,
+      caption: 'Peça decorativa dia de los muertos para publicidade'
+    },
+    {
+      src: `${cenografiaPath}78.jpg`,
+      srcGrid: `${cenografiaPath}grid/78.jpg`,
+      caption: 'Pedra para campa em esferovite para publicidade'
+    },
+    {
+      src: `${cenografiaPath}79.jpg`,
+      srcGrid: `${cenografiaPath}grid/79.jpg`,
+      caption: 'Produção de cenário em baixo relevo para publicidade'
+    },
+    {
+      src: `${cenografiaPath}80.jpg`,
+      srcGrid: `${cenografiaPath}grid/80.jpg`,
+      caption: 'Produção de parede em esferovite para empresa de construção de cenários'
+    },
+    {
+      src: `${cenografiaPath}81.jpg`,
+      srcGrid: `${cenografiaPath}grid/81.jpg`,
+      caption: 'Produção de parede tipo fachada em pedra para cenário'
+    },
+    {
+      src: `${cenografiaPath}82.jpg`,
+      srcGrid: `${cenografiaPath}grid/82.jpg`,
+      caption: 'Produção de paredes em pedra rústica em esferovite para filme'
+    },
+    {
+      src: `${cenografiaPath}83.jpg`,
+      srcGrid: `${cenografiaPath}grid/83.jpg`,
+      caption: 'Produção de paredes tipo pedra para cenário'
+    },
+    {
+      src: `${cenografiaPath}84.jpg`,
+      srcGrid: `${cenografiaPath}grid/84.jpg`,
+      caption: 'Réplica túmulo Rei D. Diniz em esferovite exposição temática'
+    },
+    {
+      src: `${cenografiaPath}85.jpg`,
+      srcGrid: `${cenografiaPath}grid/85.jpg`,
+      caption: 'Talhe de adereços em madeira para publicidade'
+    },
+    {
+      src: `${cenografiaPath}86.jpg`,
+      srcGrid: `${cenografiaPath}grid/86.jpg`,
+      caption: 'Talhe de rocha para publicidade'
+    },
+    {
+      src: `${cenografiaPath}87.jpg`,
+      srcGrid: `${cenografiaPath}grid/87.jpg`,
+      caption: 'Talhe de rocha para publicidade'
+    },
+    {
+      src: `${cenografiaPath}88.jpg`,
+      srcGrid: `${cenografiaPath}grid/88.jpg`,
+      caption: 'Talhe e pintura de cabeça de gato para programa'
+    },
+    {
+      src: `${cenografiaPath}89.jpg`,
+      srcGrid: `${cenografiaPath}grid/89.jpg`,
+      caption: 'Talhe e pintura escarpas para exposição temática'
+    },
+    {
+      src: `${cenografiaPath}90.jpg`,
+      srcGrid: `${cenografiaPath}grid/90.jpg`,
+      caption: 'Talhe e pintura escarpas para exposição temática'
+    },
+
   ],
   corte: [
     {
