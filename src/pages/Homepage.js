@@ -11,6 +11,7 @@ import styles from './Homepage.module.css'
 import Button from '../components/UI/Button'
 import facebook from '../assets/img/facebook.svg'
 import instagram from '../assets/img/instagram.svg'
+import linkedin from '../assets/img/linkedin.svg'
 import LatestWorks from '../components/LatestWorks'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
@@ -77,7 +78,6 @@ const Homepage = props => {
         if (inView) {
             entry.target.classList.add(`${styles.inView}`)
         }
-
     }
 
     return (
@@ -99,6 +99,7 @@ const Homepage = props => {
                 <div className={styles.social}>
                     <img src={facebook} alt="" />
                     <img src={instagram} alt="" />
+                    <img src={linkedin} alt="" />
                 </div>
                 <LatestWorks />
             </section>
@@ -129,7 +130,7 @@ const Homepage = props => {
                                 <div>Impressão</div>
                             </div>
                         </Link>
-                        <Link to={{ pathname: '/portfolio', state: 'cenografia', id: "" }}>
+                        <Link to={{ pathname: '/portfolio', state: 'cenografia', id: 6 }}>
                             <div className={styles['grid-item']}>
                                 <img src={Cenografia} alt="cenografia" />
                                 <div>Cenografia</div>
@@ -153,7 +154,7 @@ const Homepage = props => {
                                 <div>Acrílicos</div>
                             </div>
                         </Link>
-                        <Link to={{ pathname: '/portfolio', state: 'moldes', id: "" }}>
+                        <Link to={{ pathname: '/portfolio', state: 'moldes', id: 7 }}>
                             <div className={styles['grid-item']}>
                                 <img src={Moldes} alt="moldes" />
                                 <div>Moldes</div>

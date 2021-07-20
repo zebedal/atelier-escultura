@@ -20,8 +20,8 @@ function App() {
       <Layout>
         <ScrollToTop />
         <AnimatePresence >
-          <Switch location={location} key={location.pathname}>
-            <Route path={process.env.PUBLIC_URL + '/'} exact>
+          <Switch location={location} key={location.pathname + 'awda'}>
+            <Route path='/' exact>
               <Homepage />
             </Route>
             <Route path='/portfolio'>

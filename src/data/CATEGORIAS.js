@@ -8,27 +8,27 @@ export const CATEGORIAS = {
                 {
                     categoria: 'Barro',
                     filtro: 'barro',
-                    id: 1
+                    id: 11
                 },
                 {
                     categoria: 'Esferovite',
                     filtro: 'esferovite',
-                    id: 2
+                    id: 12
                 },
                 {
                     categoria: 'Fibra',
                     filtro: 'fibra',
-                    id: 3
+                    id: 13
                 },
                 {
                     categoria: 'Gesso',
                     filtro: 'gesso',
-                    id: 4
+                    id: 14
                 },
                 {
                     categoria: 'Madeira',
                     filtro: 'madeira',
-                    id: 5
+                    id: 15
                 },
             ]
         },
@@ -55,17 +55,17 @@ export const CATEGORIAS = {
                 {
                     categoria: 'Gravação',
                     filtro: 'gravacao',
-                    id: 6
+                    id: 51
                 },
                 {
                     categoria: 'CNC Fresa',
                     filtro: 'fresa',
-                    id: 7
+                    id: 52
                 },
                 {
                     categoria: 'CNC Esferovite',
                     filtro: 'corte_esferovite',
-                    id: 8
+                    id: 53
                 }
             ]
         },

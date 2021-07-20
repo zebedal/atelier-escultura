@@ -15,7 +15,7 @@ const Portfolio = props => {
 
     const loc = useLocation();
     let counter = useRef(0);
-    let previousFilter = useRef('esculturas')
+    let previousFilter = useRef(loc.state ? loc.state : "esculturas");
 
 
     const [galleryImages, setGalleryImages] = useState(loc.state ? IMAGES[loc.state] : IMAGES[previousFilter.current]);
@@ -23,6 +23,8 @@ const Portfolio = props => {
     const [activeLink, setActiveLink] = useState(loc.id ? loc.id : 1);
 
     const filterGallery = (filter, id) => {
+        console.log('Previous filter: ', previousFilter.current)
+        console.log('Current filter: ', filter)
         if (previousFilter.current === filter) return;
         if (!IMAGES[filter] || IMAGES[filter].length === 0) {
             setGalleryImages(null);
@@ -34,11 +36,9 @@ const Portfolio = props => {
             setGalleryLoaded(false);
             setActiveLink(id);
             previousFilter.current = filter;
-            
         }
     }
 
-   
 
     const countImages = () => {
         counter.current++;

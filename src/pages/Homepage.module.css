@@ -152,9 +152,10 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 430px) {
     .Section.grid {
         margin-top: 0 !important;
+        padding-top: 80px;
     }
     .image-wrapper {
         position: absolute;
@@ -171,7 +172,7 @@
         top: 40%;  
     }
 }
-@media only screen and (min-width: 401px) and (max-width: 750px)  {
+@media only screen and (min-width: 431px) and (max-width: 750px)  {
     .image-wrapper {
         margin-right: 50px;
     }

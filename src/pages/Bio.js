@@ -6,8 +6,6 @@ import { motion } from 'framer-motion';
 
 const Bio = props => {
 
-    console.log(clientes)
-
     const container = {
         start: {
             opacity: 0,

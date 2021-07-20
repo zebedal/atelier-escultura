@@ -14,7 +14,9 @@
   font-family: 'helvetica-bold';
   src: local('helvetica-bold'), url(./assets/fonts/Helvetica-Bold.ttf) format('truetype');
 }
-
+html {
+  height: 100%;
+}
 body,html {
   color: #222;
   overflow-x: hidden;

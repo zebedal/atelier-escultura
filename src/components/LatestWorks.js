@@ -3,7 +3,7 @@ import { AnimContext } from './Layout'
 import latest1 from '../assets/img/latest1.jpg'
 import latest2 from '../assets/img/latest2.jpg'
 import styles from './LatestWorks.module.css'
-import seta from '../assets/img/seta.svg'
+/* import seta from '../assets/img/seta.svg' */
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
@@ -37,8 +37,8 @@ const LatestWorks = props => {
                 <Link to={{ pathname: '/portfolio', filter: 'ultimos' }}><img src={latest2} alt="esculturas escultura madeira" /></Link>
             </div>
             <div className={styles['controls-wrapper']} >
-                <img src={seta} style={{ transform: 'rotate(180deg)' }} alt="" />
-                <img src={seta} alt="" />
+                {/* <img src={seta} style={{ transform: 'rotate(180deg)' }} alt="" />
+                <img src={seta} alt="" /> */}
             </div>
         </motion.div>
     )
