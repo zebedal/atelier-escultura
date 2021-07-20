@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/atelier-escultura/static/css/main.7540b0bc.chunk.css",
-    "main.js": "/atelier-escultura/static/js/main.3ac9c3ab.chunk.js",
-    "main.js.map": "/atelier-escultura/static/js/main.3ac9c3ab.chunk.js.map",
+    "main.js": "/atelier-escultura/static/js/main.b9c2f74e.chunk.js",
+    "main.js.map": "/atelier-escultura/static/js/main.b9c2f74e.chunk.js.map",
     "runtime-main.js": "/atelier-escultura/static/js/runtime-main.ecb65e61.js",
     "runtime-main.js.map": "/atelier-escultura/static/js/runtime-main.ecb65e61.js.map",
-    "static/js/2.0a4d6869.chunk.js": "/atelier-escultura/static/js/2.0a4d6869.chunk.js",
-    "static/js/2.0a4d6869.chunk.js.map": "/atelier-escultura/static/js/2.0a4d6869.chunk.js.map",
+    "static/js/2.b3b0aa4d.chunk.js": "/atelier-escultura/static/js/2.b3b0aa4d.chunk.js",
+    "static/js/2.b3b0aa4d.chunk.js.map": "/atelier-escultura/static/js/2.b3b0aa4d.chunk.js.map",
     "index.html": "/atelier-escultura/index.html",
     "static/css/main.7540b0bc.chunk.css.map": "/atelier-escultura/static/css/main.7540b0bc.chunk.css.map",
-    "static/js/2.0a4d6869.chunk.js.LICENSE.txt": "/atelier-escultura/static/js/2.0a4d6869.chunk.js.LICENSE.txt",
+    "static/js/2.b3b0aa4d.chunk.js.LICENSE.txt": "/atelier-escultura/static/js/2.b3b0aa4d.chunk.js.LICENSE.txt",
     "static/media/index.css": "/atelier-escultura/static/media/Montserrat-Regular.3cd78665.ttf",
     "static/media/acrilicos.85226cf1.jpg": "/atelier-escultura/static/media/acrilicos.85226cf1.jpg",
     "static/media/background.f00e5127.jpg": "/atelier-escultura/static/media/background.f00e5127.jpg",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ecb65e61.js",
-    "static/js/2.0a4d6869.chunk.js",
+    "static/js/2.b3b0aa4d.chunk.js",
     "static/css/main.7540b0bc.chunk.css",
-    "static/js/main.3ac9c3ab.chunk.js"
+    "static/js/main.b9c2f74e.chunk.js"
   ]
 }
