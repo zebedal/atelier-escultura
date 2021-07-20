@@ -24,10 +24,10 @@ function App() {
             <Route path={process.env.PUBLIC_URL + '/'} exact>
               <Homepage />
             </Route>
-            <Route path={process.env.PUBLIC_URL + '/portfolio'}>
+            <Route path='/portfolio'>
               <Portfolio />
             </Route>
-            <Route path={process.env.PUBLIC_URL + 'bio'}>
+            <Route path='/bio'>
               <Bio />
             </Route>
           </Switch>
