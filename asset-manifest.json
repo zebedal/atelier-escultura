@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.43d06a98.chunk.css",
+    "main.js": "/static/js/main.f7426b72.chunk.js",
+    "main.js.map": "/static/js/main.f7426b72.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0d806349.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0d806349.js.map",
+    "static/js/2.b3b0aa4d.chunk.js": "/static/js/2.b3b0aa4d.chunk.js",
+    "static/js/2.b3b0aa4d.chunk.js.map": "/static/js/2.b3b0aa4d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.43d06a98.chunk.css.map": "/static/css/main.43d06a98.chunk.css.map",
+    "static/js/2.b3b0aa4d.chunk.js.LICENSE.txt": "/static/js/2.b3b0aa4d.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Montserrat-Regular.3cd78665.ttf",
+    "static/media/acrilicos.85226cf1.jpg": "/static/media/acrilicos.85226cf1.jpg",
+    "static/media/background.f00e5127.jpg": "/static/media/background.f00e5127.jpg",
+    "static/media/cenografia.a621d452.jpg": "/static/media/cenografia.a621d452.jpg",
+    "static/media/close.43432475.svg": "/static/media/close.43432475.svg",
+    "static/media/close_black.4e36df5c.svg": "/static/media/close_black.4e36df5c.svg",
+    "static/media/escultura.6e5fe16b.jpg": "/static/media/escultura.6e5fe16b.jpg",
+    "static/media/esferovite.396aa833.jpg": "/static/media/esferovite.396aa833.jpg",
+    "static/media/facebook.8a8ec84a.svg": "/static/media/facebook.8a8ec84a.svg",
+    "static/media/impressao.cbdf0934.jpg": "/static/media/impressao.cbdf0934.jpg",
+    "static/media/instagram.ae470458.svg": "/static/media/instagram.ae470458.svg",
+    "static/media/latest1.027bcd76.jpg": "/static/media/latest1.027bcd76.jpg",
+    "static/media/latest2.9abdf0e7.jpg": "/static/media/latest2.9abdf0e7.jpg",
+    "static/media/linkedin.c61f38f6.svg": "/static/media/linkedin.c61f38f6.svg",
+    "static/media/logo-branco.ce8e4edf.svg": "/static/media/logo-branco.ce8e4edf.svg",
+    "static/media/logo.ecbb8c47.svg": "/static/media/logo.ecbb8c47.svg",
+    "static/media/moldes.12c13725.jpg": "/static/media/moldes.12c13725.jpg",
+    "static/media/outros.aa8bf20c.jpg": "/static/media/outros.aa8bf20c.jpg",
+    "static/media/seta.7a78063d.svg": "/static/media/seta.7a78063d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d806349.js",
+    "static/js/2.b3b0aa4d.chunk.js",
+    "static/css/main.43d06a98.chunk.css",
+    "static/js/main.f7426b72.chunk.js"
+  ]
+}
