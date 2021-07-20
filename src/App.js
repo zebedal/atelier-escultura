@@ -21,13 +21,13 @@ function App() {
         <ScrollToTop />
         <AnimatePresence >
           <Switch location={location} key={location.pathname}>
-            <Route path="/" exact>
+            <Route path={process.env.PUBLIC_URL + '/'} exact>
               <Homepage />
             </Route>
-            <Route path="/portfolio">
+            <Route path={process.env.PUBLIC_URL + '/portfolio'}>
               <Portfolio />
             </Route>
-            <Route path="/bio">
+            <Route path={process.env.PUBLIC_URL + 'bio'}>
               <Bio />
             </Route>
           </Switch>
