@@ -1,9 +1,13 @@
 import close from '../../assets/img/close.svg'
 import styles from './Sidebar.module.css'
 import {Link} from 'react-router-dom'
+import { ModalContext } from '../UI/ModalWrapper'
+import { useContext } from 'react'
 
 
 const SideNav = ({open, openNav}) => {
+
+    const context = useContext(ModalContext);
 
     return(
         <div className={`${styles.sidebar} ${open ? styles.open : ""}`}>
@@ -12,7 +16,7 @@ const SideNav = ({open, openNav}) => {
             <Link to="/" className={styles['nav-links']} onClick={openNav}>Home</Link>
             <Link to="/bio" className={styles['nav-links']} onClick={openNav}>Bio</Link>
             <Link to="/portfolio" className={styles['nav-links']} onClick={openNav}>Portfolio</Link>
-            <Link to="/contact" className={styles['nav-links']} onClick={openNav}>Contactar</Link>
+            <Link to="#" className={styles['nav-links']} onClick={context.openModal}>Contactar</Link>
         </nav>
         <div className={styles.contacts}>
             <h3 className={styles['contactos-title']}>Contactos</h3>

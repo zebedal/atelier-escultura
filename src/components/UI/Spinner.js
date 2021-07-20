@@ -1,7 +1,7 @@
 import React from "react"
 
 
-const Spinner = ({ size }) => (
+const Spinner = ({ size,text }) => (
     <React.Fragment>
         <div style={{textAlign: 'center',marginTop: "100px"}}>
             <svg width={size} height={size} viewBox="0 0 44 44" xmlns="http://www.w3.org/2000/svg" stroke="#222">
@@ -40,7 +40,7 @@ const Spinner = ({ size }) => (
                     </circle>
                 </g>
             </svg>
-            <p>loading images...</p>
+            <p>{text}</p>
         </div>
     </React.Fragment>
 )

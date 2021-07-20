@@ -141,6 +141,16 @@
     grid-row: span 2;
 }
 
+.obs {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all .3s ease-out;
+}
+.obs.inView {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 @media screen and (max-width: 400px) {
     .Section.grid {

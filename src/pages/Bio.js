@@ -1,12 +1,36 @@
 import React from 'react'
 import Button from '../components/UI/Button';
 import styles from './Bio.module.css'
-import clientes from '../assets/img/clientes.svg'
+import {clientes} from '../data/CLIENTES'
+import { motion } from 'framer-motion';
 
 const Bio = props => {
 
+    console.log(clientes)
+
+    const container = {
+        start: {
+            opacity: 0,
+            y: 100
+        },
+        end:{
+            opacity: 1,
+            y:0,
+            transition: {
+                duration: 1
+            }
+        },
+        exit: {
+            opacity: 0,
+            x: '-100vw',
+            transition: {
+                ease: 'easeInOut'
+            }
+        }
+    }
+
     return (
-        <React.Fragment>
+        <motion.div variants={container} initial="start" animate="end"  exit="exit">
             <section>
 
                 <div className={styles['image-wrapper']} >
@@ -23,7 +47,7 @@ const Bio = props => {
                         <h5>Sou o Ricardo Contramestre, faço todo o tipo de trabalho artístico desde a Escultura lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida quam at posuere vestibulum.</h5>
                         <br />
                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                        <Button text="Entrar em contacto" />
+                        <Button text="Contactar" openModal={true}/>
                     </div>
                 </div>
                 <br /><br />
@@ -45,13 +69,22 @@ const Bio = props => {
                 <br /><br />
                 <div className={styles.line}></div>
 
-                <div className={`${styles.row} ${styles.column}`}>
+                <div className={`${styles.row} `} style={{display: 'block'}}>
                     <h5 className={styles.title}>clientes</h5>
-                    <div className={styles.svgWrapper}><img src={clientes} alt=""/></div>
+                    <div className={styles.svgWrapper}>
+                        {clientes.map((item, i) => {
+                            return(
+                                <div className={styles.imgBox} key={i}>
+                                <img src={item.src} alt={item.name} />
+                            </div>
+                            )
+                            
+                        })}
+                    </div>
                 </div>
 
             </section>
-        </React.Fragment>
+        </motion.div>
 
 
     )

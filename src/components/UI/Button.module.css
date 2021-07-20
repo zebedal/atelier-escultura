@@ -9,6 +9,8 @@
     margin-top: 50px;
     cursor: pointer;
     position: relative;
+    background: none;
+    outline: none;
 }
 .Button > span {
     display: inline-block;

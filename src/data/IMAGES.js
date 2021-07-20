@@ -3,7 +3,6 @@ const pinturaPath = 'assets/img/portfolio/pintura/';
 const cenografiaPath = 'assets/img/portfolio/cenografia/';
 const acrilicosPath = 'assets/img/portfolio/acrilicos/';
 const cortePath = 'assets/img/portfolio/corte/';
-const corteEsferovitePath = 'assets/img/portfolio/corte/esferovite/';
 const impressaoPath = 'assets/img/portfolio/impressao/';
 const barroPath = 'assets/img/portfolio/esculturas/barro/';
 const esferovitePath = 'assets/img/portfolio/esculturas/esferovite/';
@@ -11,16 +10,12 @@ const fibraPath = 'assets/img/portfolio/esculturas/fibra/';
 const gessoPath = 'assets/img/portfolio/esculturas/gesso/';
 const madeiraPath = 'assets/img/portfolio/esculturas/madeira/';
 const moldesPath = 'assets/img/portfolio/moldes/';
+const ultimosTrabalhosPath = 'assets/img/portfolio/ultimos/';
 
 export const IMAGES = {
   esculturas: [
     
-    {
-      src: `${esculturasPath}2.jpg`,
-      srcGrid: `${esculturasPath}grid/2.jpg`,
-      caption: 'Escultura 1'
-    },
-   
+    
     {
       src: `${esculturasPath}4.jpg`,
       srcGrid: `${esculturasPath}grid/4.jpg`,
@@ -43,33 +38,13 @@ export const IMAGES = {
       caption: 'Escultura 1'
     },
     {
-      src: `${esculturasPath}9.jpg`,
-      srcGrid: `${esculturasPath}grid/9.jpg`,
-      caption: 'Escultura 1'
-    },
-    {
-      src: `${esculturasPath}10.jpg`,
-      srcGrid: `${esculturasPath}grid/10.jpg`,
-      caption: 'Escultura 1'
-    },
-    {
       src: `${esculturasPath}11.jpg`,
       srcGrid: `${esculturasPath}grid/11.jpg`,
       caption: 'Escultura 1'
     },
     {
-      src: `${esculturasPath}12.jpg`,
-      srcGrid: `${esculturasPath}grid/12.jpg`,
-      caption: 'Escultura 1'
-    },
-    {
       src: `${esculturasPath}13.jpg`,
       srcGrid: `${esculturasPath}grid/13.jpg`,
-      caption: 'Escultura 1'
-    },
-    {
-      src: `${esculturasPath}14.jpg`,
-      srcGrid: `${esculturasPath}grid/14.jpg`,
       caption: 'Escultura 1'
     },
     {
@@ -80,16 +55,6 @@ export const IMAGES = {
     {
       src: `${esculturasPath}16.jpg`,
       srcGrid: `${esculturasPath}grid/16.jpg`,
-      caption: 'Escultura 1'
-    },
-    {
-      src: `${esculturasPath}17.jpg`,
-      srcGrid: `${esculturasPath}grid/17.jpg`,
-      caption: 'Escultura 1'
-    },
-    {
-      src: `${esculturasPath}18.jpg`,
-      srcGrid: `${esculturasPath}grid/18.jpg`,
       caption: 'Escultura 1'
     },
     {
@@ -125,11 +90,6 @@ export const IMAGES = {
     {
       src: `${esculturasPath}25.jpg`,
       srcGrid: `${esculturasPath}grid/25.jpg`,
-      caption: 'Escultura 1'
-    },
-    {
-      src: `${esculturasPath}26.jpg`,
-      srcGrid: `${esculturasPath}grid/26.jpg`,
       caption: 'Escultura 1'
     },
     {
@@ -828,11 +788,11 @@ export const IMAGES = {
       srcGrid: `${cortePath}/grid/3.jpg`,
       caption: 'Corte e gravação de acrílico a laser '
     },
-    {
+    /* {
       src: `${cortePath}4.jpg`,
       srcGrid: `${cortePath}/grid/4.jpg`,
       caption: 'Corte e gravação de acrílico a laser '
-    },
+    }, */
     {
       src: `${cortePath}5.jpg`,
       srcGrid: `${cortePath}/grid/5.jpg`,
@@ -860,9 +820,49 @@ export const IMAGES = {
       caption: 'Busto em barro'
     },
     {
-      src: `${barroPath}2.jpg`,
-      srcGrid: `${barroPath}grid/2.jpg`,
+      src: `${barroPath}4.jpg`,
+      srcGrid: `${barroPath}grid/4.jpg`,
       caption: 'Busto em barro'
+    },
+    {
+      src: `${barroPath}4.jpg`,
+      srcGrid: `${barroPath}grid/4.jpg`,
+      caption: 'Escultura de mãos em cerâmica'
+    },
+    {
+      src: `${barroPath}5.jpg`,
+      srcGrid: `${barroPath}grid/5.jpg`,
+      caption: 'Escultura de barro'
+    },
+    {
+      src: `${barroPath}6.jpg`,
+      srcGrid: `${barroPath}grid/6.jpg`,
+      caption: 'Escultura de barro'
+    },
+    {
+      src: `${barroPath}7.jpg`,
+      srcGrid: `${barroPath}grid/7.jpg`,
+      caption: 'Escultura de barro'
+    },
+    {
+      src: `${barroPath}8.jpg`,
+      srcGrid: `${barroPath}grid/8.jpg`,
+      caption: 'Escultura de barro'
+    },
+    {
+      src: `${barroPath}9.jpg`,
+      srcGrid: `${barroPath}grid/9.jpg`,
+      caption: 'Escultura de barro'
+    },
+    {
+      src: `${barroPath}10.jpg`,
+      srcGrid: `${barroPath}grid/10.jpg`,
+      caption: 'Escultura de barro'
+    },
+    {
+      src: `${barroPath}11.jpg`,
+      srcGrid: `${barroPath}grid/11.jpg`,
+      caption: 'Escultura de barro'
     },
   ],
   esferovite: [
@@ -1080,7 +1080,18 @@ export const IMAGES = {
       src: `${esferovitePath}43.jpg`,
       srcGrid: `${esferovitePath}grid/43.jpg`,
       caption: 'Escultura para carros alegóricos de carnaval'
-    }
+    },
+    {
+      src: `${esferovitePath}44.jpg`,
+      srcGrid: `${esferovitePath}grid/44.jpg`,
+      caption: 'Escultura de Cristo em poliuretano de alta densidade'
+    }, 
+     {
+      src: `${esferovitePath}45.jpg`,
+      srcGrid: `${esferovitePath}grid/45.jpg`,
+      caption: 'Escultura em esferovite e pintura para marchas de Lisboa'
+    }, 
+    
   ],
   fibra: [
     {
@@ -1123,21 +1134,21 @@ export const IMAGES = {
       srcGrid: `${fibraPath}grid/8.jpg`,
       caption: 'Escultura de Cristo em poliuretano de alta densidade'
     },
-    {
+    /* {
       src: `${fibraPath}9.jpg`,
       srcGrid: `${fibraPath}grid/9.jpg`,
       caption: 'Escultura de Cristo em poliuretano de alta densidade'
-    },
+    }, */
     {
       src: `${fibraPath}10.jpg`,
       srcGrid: `${fibraPath}grid/10.jpg`,
       caption: 'Escultura em esferovite e massa Rei D. Dinis'
     },
-    {
+    /* {
       src: `${fibraPath}11.jpg`,
       srcGrid: `${fibraPath}grid/11.jpg`,
       caption: 'Escultura em esferovite e pintura para marchas de Lisboa'
-    },
+    }, */
     {
       src: `${fibraPath}12.jpg`,
       srcGrid: `${fibraPath}grid/12.jpg`,
@@ -1170,11 +1181,11 @@ export const IMAGES = {
     }  
   ],
   gesso: [
-    {
+    /* {
       src: `${gessoPath}1.jpg`,
       srcGrid: `${gessoPath}grid/1.jpg`,
-      caption: 'Escultura de mãos em cerâmica com molde de gesso'
-    },
+      caption: 'Escultura de mãos em cerâmica'
+    }, */
     {
       src: `${gessoPath}2.jpg`,
       srcGrid: `${gessoPath}grid/2.jpg`,
@@ -1190,6 +1201,16 @@ export const IMAGES = {
     {
       src: `${madeiraPath}1.jpg`,
       srcGrid: `${madeiraPath}grid/1.jpg`,
+      caption: 'Escultura em madeira de pinho'
+    },
+    {
+      src: `${madeiraPath}2.jpg`,
+      srcGrid: `${madeiraPath}grid/2.jpg`,
+      caption: 'Escultura em madeira de pinho'
+    },
+    {
+      src: `${madeiraPath}3.jpg`,
+      srcGrid: `${madeiraPath}grid/3.jpg`,
       caption: 'Escultura em madeira de pinho'
     } 
   ],

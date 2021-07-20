@@ -80,9 +80,14 @@ export const CATEGORIAS = {
             id: 7,
         },
         {
+            categoria: 'Laser',
+            filtro: 'laser',
+            id: 8,
+        },
+        {
             categoria: 'Últimos Trabalhos',
             filtro: 'ultimos',
-            id: 8
+            id: 9
         }
     ],
     activeLink: null
