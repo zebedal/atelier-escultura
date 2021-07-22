@@ -25,9 +25,17 @@
     font-size: 24px;
     display: block;
     margin-top: 20px;
+    transition: all .5s ease;
+}
+.nav-links:hover {
+    opacity: .6;
+    transform: translateX(10px);
 }
 .contacts {
     color: white;
+}
+.contacts p {
+    line-height: 1.5;
 }
 .close {
     position: absolute;
@@ -44,4 +52,7 @@
 .bold {
     font-family: montserrat-medium;
     font-weight: 400;
+}
+.active {
+    color: #BA814E;
 }

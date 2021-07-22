@@ -1,9 +1,8 @@
 import styles from './Header.module.css'
 import logo from '../assets/img/logo.svg' 
-import { useContext } from 'react'
-import { AnimContext } from './Layout'
 import {motion} from 'framer-motion'
 import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router'
 
 const headerVariant = {
     start: {
@@ -22,13 +21,16 @@ const headerVariant = {
 }
 
 
+
+
 const Header = ({openNav}) => {
 
-    const anim = useContext(AnimContext);
+    const loc = useLocation();
+    const anim = loc.pathname === '/';
 
     return (
-        <motion.header variants={headerVariant} initial={anim ? "start" : ""} animate="end">
-        <Link to="/"><img src={logo} alt="" style={{width:'120px', height: 'auto'}}/></Link>
+        <motion.header variants={headerVariant} initial={!anim ? "" : "start"} animate="end">
+        <Link to="/"><img src={logo} alt="" style={{width:'90px', height: 'auto'}}/></Link>
         <div className={styles['burger-wrapper']} onClick={openNav}>
             <div></div>
             <div></div>

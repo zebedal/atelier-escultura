@@ -91,15 +91,15 @@ const Homepage = props => {
                     <motion.h5 variants={subTitleVariant} initial={anim ? "start" : ""} animate="end">ATELIER DE ESCULTURA</motion.h5>
                     <Logo />
                     <motion.div variants={button} initial={anim ? "start" : ""} animate="end">
-                        <Link to="/" >
+                       
                             <Button text="contactar" openModal={true}/>
-                        </Link>
+                        
                     </motion.div>
                 </div>
                 <div className={styles.social}>
-                    <img src={facebook} alt="" />
-                    <img src={instagram} alt="" />
-                    <img src={linkedin} alt="" />
+                    <a href="https://www.facebook.com/contramestre" target="_blank"><img src={facebook} alt="" /></a>
+                    <a href="https://www.instagram.com/ricardomiguel281/" target="_blank"><img src={instagram} alt="" /></a>
+                    <a href="http://linkedin.com/in/ricardo-miguel-59309734" target="_blank"><img src={linkedin} alt="" /></a>
                 </div>
                 <LatestWorks />
             </section>
