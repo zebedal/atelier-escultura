@@ -770,6 +770,16 @@ export const IMAGES = {
       srcGrid: `${cenografiaPath}grid/90.jpg`,
       caption: 'Talhe e pintura escarpas para exposição temática'
     },
+    {
+      src: `${cenografiaPath}91.jpg`,
+      srcGrid: `${cenografiaPath}grid/91.jpg`,
+      caption: 'Reprodução de espingarda G3 em poliuretano compacto para filme'
+    },
+    {
+      src: `${cenografiaPath}92.jpg`,
+      srcGrid: `${cenografiaPath}grid/92.jpg`,
+      caption: 'Roda de bicicleta com 4,2 metros para museu'
+    }
 
   ],
   corte: [
@@ -811,7 +821,16 @@ export const IMAGES = {
   ],
   
   ultimos:[
-    
+    {
+      src: `${ultimosTrabalhosPath}1.jpg`,
+      srcGrid: `${ultimosTrabalhosPath}grid/1.jpg`,
+      caption: 'Reprodução de espingarda G3 em poliuretano compacto para filme'
+    },
+    {
+      src: `${ultimosTrabalhosPath}2.jpg`,
+      srcGrid: `${ultimosTrabalhosPath}grid/2.jpg`,
+      caption: 'Roda de bicicleta com 4,2 metros para museu'
+    },
   ],
   barro: [
     {
@@ -820,9 +839,14 @@ export const IMAGES = {
       caption: 'Busto em barro'
     },
     {
-      src: `${barroPath}4.jpg`,
-      srcGrid: `${barroPath}grid/4.jpg`,
+      src: `${barroPath}2.jpg`,
+      srcGrid: `${barroPath}grid/2.jpg`,
       caption: 'Busto em barro'
+    },
+    {
+      src: `${barroPath}3.jpg`,
+      srcGrid: `${barroPath}grid/3.jpg`,
+      caption: 'Escultura em barro S. Rafael'
     },
     {
       src: `${barroPath}4.jpg`,
@@ -832,7 +856,7 @@ export const IMAGES = {
     {
       src: `${barroPath}5.jpg`,
       srcGrid: `${barroPath}grid/5.jpg`,
-      caption: 'Escultura de barro'
+      caption: 'Estudo modelação em barro para samurai'
     },
     {
       src: `${barroPath}6.jpg`,
@@ -862,8 +886,33 @@ export const IMAGES = {
     {
       src: `${barroPath}11.jpg`,
       srcGrid: `${barroPath}grid/11.jpg`,
-      caption: 'Escultura de barro'
+      caption: 'Estudo em barro auto retrato'
     },
+    {
+      src: `${barroPath}12.jpg`,
+      srcGrid: `${barroPath}grid/12.jpg`,
+      caption: 'Estudo de escultura em barro através de molde de gesso'
+    },
+    {
+      src: `${barroPath}13.jpg`,
+      srcGrid: `${barroPath}grid/13.jpg`,
+      caption: 'Estudo de tronco em barro'
+    },
+    {
+      src: `${barroPath}14.jpg`,
+      srcGrid: `${barroPath}grid/14.jpg`,
+      caption: 'Modelação de busto para publicidade'
+    },
+    {
+      src: `${barroPath}15.jpg`,
+      srcGrid: `${barroPath}grid/15.jpg`,
+      caption: 'Pormenor de modelação para a composição escultórica na Igreja dos Pastorinhos'
+    },
+    {
+      src: `${barroPath}16.jpg`,
+      srcGrid: `${barroPath}grid/16.jpg`,
+      caption: 'Retrato em barro'
+    }
   ],
   esferovite: [
     {
@@ -1090,7 +1139,107 @@ export const IMAGES = {
       src: `${esferovitePath}45.jpg`,
       srcGrid: `${esferovitePath}grid/45.jpg`,
       caption: 'Escultura em esferovite e pintura para marchas de Lisboa'
+    },
+    {
+      src: `${esferovitePath}46.jpg`,
+      srcGrid: `${esferovitePath}grid/46.jpg`,
+      caption: 'Escultura para decoração Egípcia'
+    },
+    {
+      src: `${esferovitePath}47.jpg`,
+      srcGrid: `${esferovitePath}grid/47.jpg`,
+      caption: 'Escultura para carros alegóricos de carnaval'
+    },
+    {
+      src: `${esferovitePath}48.jpg`,
+      srcGrid: `${esferovitePath}grid/48.jpg`,
+      caption: 'Escultura para carros alegóricos de carnaval'
+    },
+    {
+      src: `${esferovitePath}49.jpg`,
+      srcGrid: `${esferovitePath}grid/49.jpg`,
+      caption: 'Escultura para carros alegóricos de carnaval'
+    },
+    {
+      src: `${esferovitePath}50.jpg`,
+      srcGrid: `${esferovitePath}grid/50.jpg`,
+      caption: 'Escultura para carros alegóricos de carnaval'
     }, 
+    {
+      src: `${esferovitePath}51.jpg`,
+      srcGrid: `${esferovitePath}grid/51.jpg`,
+      caption: 'Escultura para carros alegóricos de carnaval'
+    },
+    {
+      src: `${esferovitePath}52.jpg`,
+      srcGrid: `${esferovitePath}grid/52.jpg`,
+      caption: 'Escultura para carros alegóricos de carnaval'
+    },
+    {
+      src: `${esferovitePath}53.jpg`,
+      srcGrid: `${esferovitePath}grid/53.jpg`,
+      caption: 'Escultura para carros alegóricos de carnaval'
+    },
+    {
+      src: `${esferovitePath}54.jpg`,
+      srcGrid: `${esferovitePath}grid/54.jpg`,
+      caption: 'Escultura para carros alegóricos de carnaval'
+    },
+    {
+      src: `${esferovitePath}55.jpg`,
+      srcGrid: `${esferovitePath}grid/55.jpg`,
+      caption: 'Escultura em esferovite e PVC de brasão para filme'
+    },
+    {
+      src: `${esferovitePath}56.jpg`,
+      srcGrid: `${esferovitePath}grid/56.jpg`,
+      caption: 'Escultura de fonte com gárgula para série'
+    },
+    {
+      src: `${esferovitePath}57.jpg`,
+      srcGrid: `${esferovitePath}grid/57.jpg`,
+      caption: 'Réplica túmulo de D. Dinis em Esferovite'
+    },
+    {
+      src: `${esferovitePath}58.jpg`,
+      srcGrid: `${esferovitePath}grid/58.jpg`,
+      caption: 'Talhe de moeda da primeira república para exposição temática'
+    },
+    {
+      src: `${esferovitePath}59.jpg`,
+      srcGrid: `${esferovitePath}grid/59.jpg`,
+      caption: 'Escultura para carros alegóricos de carnaval'
+    },
+    {
+      src: `${esferovitePath}60.jpg`,
+      srcGrid: `${esferovitePath}grid/60.jpg`,
+      caption: 'Talhe de pedra em esferovite e massa para filme'
+    },
+    {
+      src: `${esferovitePath}61.jpg`,
+      srcGrid: `${esferovitePath}grid/61.jpg`,
+      caption: 'Esculturas para exposição temática museu'
+    },
+    {
+      src: `${esferovitePath}62.jpg`,
+      srcGrid: `${esferovitePath}grid/62.jpg`,
+      caption: 'Escultura para carros alegóricos de carnaval'
+    },
+    {
+      src: `${esferovitePath}63.jpg`,
+      srcGrid: `${esferovitePath}grid/63.jpg`,
+      caption: 'Produção de decoração de Natal em esferovite e madeira'
+    },
+    {
+      src: `${esferovitePath}64.jpg`,
+      srcGrid: `${esferovitePath}grid/64.jpg`,
+      caption: 'Escultura para carros alegóricos de carnaval'
+    },
+    {
+      src: `${esferovitePath}65.jpg`,
+      srcGrid: `${esferovitePath}grid/65.jpg`,
+      caption: 'Escultura para carros alegóricos de carnaval'
+    }
     
   ],
   fibra: [
@@ -1178,14 +1327,60 @@ export const IMAGES = {
       src: `${fibraPath}17.jpg`,
       srcGrid: `${fibraPath}grid/17.jpg`,
       caption: 'Escultura em fibra S. Rafael'
-    }  
+    },
+    {
+      src: `${fibraPath}18.jpg`,
+      srcGrid: `${fibraPath}grid/18.jpg`,
+      caption: 'Escultura de Cristo para filme'
+    } ,
+    {
+      src: `${fibraPath}19.jpg`,
+      srcGrid: `${fibraPath}grid/19.jpg`,
+      caption: 'Escultura de Cristo para filme'
+    },
+    {
+      src: `${fibraPath}20.jpg`,
+      srcGrid: `${fibraPath}grid/20.jpg`,
+      caption: 'Presépio Natal em fibra resina e tecido serapilheira'
+    },
+    {
+      src: `${fibraPath}21.jpg`,
+      srcGrid: `${fibraPath}grid/21.jpg`,
+      caption: 'Presépio em fibra resina e tecido serrapilheira'
+    },
+    {
+      src: `${fibraPath}22.jpg`,
+      srcGrid: `${fibraPath}grid/22.jpg`,
+      caption: 'Escultura em esferovite e resina no palácio de Oeiras, pormenor'
+    },
+    {
+      src: `${fibraPath}23.jpg`,
+      srcGrid: `${fibraPath}grid/23.jpg`,
+      caption: 'Escultura peça presépio'
+    },
+    {
+      src: `${fibraPath}24.jpg`,
+      srcGrid: `${fibraPath}grid/24.jpg`,
+      caption: 'Esculturas em fibra epóxi em ISEG'
+    },
+    {
+      src: `${fibraPath}25.jpg`,
+      srcGrid: `${fibraPath}grid/25.jpg`,
+      caption: 'Estudo de escultura em poliuretano e resina'
+    }
+    ,
+    {
+      src: `${fibraPath}26.jpg`,
+      srcGrid: `${fibraPath}grid/26.jpg`,
+      caption: 'Pormenor da Composição escultórica na Igreja dos Pastorinhos'
+    }   
   ],
   gesso: [
-    /* {
+    {
       src: `${gessoPath}1.jpg`,
       srcGrid: `${gessoPath}grid/1.jpg`,
-      caption: 'Escultura de mãos em cerâmica'
-    }, */
+      caption: 'Escultura de Cristo para filme'
+    }, 
     {
       src: `${gessoPath}2.jpg`,
       srcGrid: `${gessoPath}grid/2.jpg`,
@@ -1195,6 +1390,46 @@ export const IMAGES = {
       src: `${gessoPath}3.jpg`,
       srcGrid: `${gessoPath}grid/3.jpg`,
       caption: 'Escultura em gesso'
+    },
+    {
+      src: `${gessoPath}4.jpg`,
+      srcGrid: `${gessoPath}grid/4.jpg`,
+      caption: 'Escultura em esferovite e massa com patine para novela'
+    },
+    {
+      src: `${gessoPath}5.jpg`,
+      srcGrid: `${gessoPath}grid/5.jpg`,
+      caption: 'Escultura em esferovite e massa para exposição temática'
+    },
+    {
+      src: `${gessoPath}6.jpg`,
+      srcGrid: `${gessoPath}grid/6.jpg`,
+      caption: 'Escultura em esferovite e massa para exposição temática'
+    },
+    {
+      src: `${gessoPath}7.jpg`,
+      srcGrid: `${gessoPath}grid/7.jpg`,
+      caption: 'Escultura em esferovite e massa para exposição temática'
+    },
+    {
+      src: `${gessoPath}8.jpg`,
+      srcGrid: `${gessoPath}grid/8.jpg`,
+      caption: 'Escultura em esferovite e massa para novela'
+    },
+    {
+      src: `${gessoPath}9.jpg`,
+      srcGrid: `${gessoPath}grid/9.jpg`,
+      caption: 'Escultura em esferovite e massa, Rei D. Dinis'
+    },
+    {
+      src: `${gessoPath}10.jpg`,
+      srcGrid: `${gessoPath}grid/10.jpg`,
+      caption: 'Escultura em esferovite emassa para exposiçãoo temática'
+    },
+    {
+      src: `${gessoPath}11.jpg`,
+      srcGrid: `${gessoPath}grid/11.jpg`,
+      caption: 'Escultura em esferovite, massa e patine para publicidade'
     } 
   ],
   madeira: [
@@ -1212,7 +1447,22 @@ export const IMAGES = {
       src: `${madeiraPath}3.jpg`,
       srcGrid: `${madeiraPath}grid/3.jpg`,
       caption: 'Escultura em madeira de pinho'
-    } 
+    },
+    {
+      src: `${madeiraPath}4.jpg`,
+      srcGrid: `${madeiraPath}grid/4.jpg`,
+      caption: 'Escultura em madeira de pinho'
+    },
+    {
+      src: `${madeiraPath}5.jpg`,
+      srcGrid: `${madeiraPath}grid/5.jpg`,
+      caption: 'Estudo de talhe em madeira'
+    },
+    {
+      src: `${madeiraPath}6.jpg`,
+      srcGrid: `${madeiraPath}grid/6.jpg`,
+      caption: 'Estudo escultura em ripas madeira pinho'
+    }  
   ],
   moldes: [
     {

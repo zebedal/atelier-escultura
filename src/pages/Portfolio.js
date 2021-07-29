@@ -27,7 +27,7 @@ const Portfolio = props => {
     useEffect(() => {
         const checkScrollTop = () => {    
             const bottom = gallery.current.getBoundingClientRect().bottom;
-            console.log('PageY offset: ', window.pageYOffset, '-- Bottom: ', bottom );
+            /* console.log('PageY offset: ', window.pageYOffset, '-- Bottom: ', bottom ); */
             if (window.pageYOffset > 400 && bottom > 550){
                 setShowScroller(true)    
             } else if (window.pageYOffset <= 400 || bottom < 550 ){

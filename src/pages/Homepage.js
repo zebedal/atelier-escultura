@@ -108,9 +108,9 @@ const Homepage = props => {
                 <InView as="div" onChange={(inView, entry) => handleInView(inView, entry)} className={`${styles.obs} `}>
                     <div className={`${styles['news-wrapper']}`}  >
                         <div className={styles.text}>
-                            <h2>Outro</h2>
-                            <h3 className={styles.subtitle}>Título</h3>
-                            <p className={styles['text-paragraph']}>Nullam elementum porttitor aliquam. Morbi dictum tristique nulla at sagittis. Nam imperdiet erat sit amet pharetra tempor. Quisque pharetra ipsum quis velit luctus porta. Aenean finibus mi nec urna mattis malesuada. Aliquam magna lorem, pulvinar ac ultrices ac, lobortis id nisl. Nunc at consectetur neque. Suspendisse viverra sollicitudin tortor et lacinia.</p>
+                            <h2>Esculturas </h2>
+                            <h3 className={styles.subtitle}>em Esferovite</h3>
+                            <p className={styles['text-paragraph']}>Criamos e produzimos para cenografia, carnaval, exposições temáticas, eventos e campanhas sazonais. Executamos esculturas e adereços em esferovite, poliuretano e fibra. Além da produção das figuras ou adereços produzimos também todo o cenário envolvente.</p>
                             <Link to="/portfolio"><Button text="Ver Trabalhos" /></Link>
                         </div>
                         <div className={styles['news-image-wrapper']}>

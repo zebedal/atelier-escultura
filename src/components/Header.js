@@ -21,8 +21,6 @@ const headerVariant = {
 }
 
 
-
-
 const Header = ({openNav}) => {
 
     const loc = useLocation();
