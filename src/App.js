@@ -18,8 +18,8 @@ function App() {
     <div className="App">
     <ModalContextProvider>
       <Layout>
-        <ScrollToTop />
         <AnimatePresence >
+        <ScrollToTop />
           <Switch location={location} key={location.pathname + 'awda'}>
             <Route path='/' exact>
               <Homepage />

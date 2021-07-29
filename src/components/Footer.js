@@ -27,6 +27,7 @@ const Footer = props => (
                 <a href="http://linkedin.com/in/ricardo-miguel-59309734" target="blank" className={styles.grey}> <p >Linkedin</p></a>
             </div>
         </div>
+        <p style={{textAlign: 'right', marginRight: '100px'}}>Criado por: <a className={styles.grey} href="https://www.facebook.com/snevesdesign" target="_blank">SNDesign</a></p>
     </section>
 )
 

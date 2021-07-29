@@ -44,6 +44,7 @@ const Portfolio = props => {
     
 
     const filterGallery = (filter, id) => {
+        console.log('FILERING GALLERY BY: ', filter)
         if (previousFilter.current === filter) return;
         if (!IMAGES[filter] || IMAGES[filter].length === 0) {
             setGalleryImages(null);
@@ -80,7 +81,8 @@ const Portfolio = props => {
             opacity: 1,
             y: 0,
             transition: {
-                duration: 1
+                duration: 1,
+                delay: 0.5
             }
         },
         exit: {

@@ -30,12 +30,12 @@ body,html {
 
 h1, h2 {
   font-family: helvetica-bold;
-  font-size: calc(40px + (80 - 40) * (100vw - 400px) / (1680 - 400));
+  font-size: calc(40px + (60 - 40) * (100vw - 400px) / (1680 - 400));
 }
 h3 {
   font-family: montserrat-light;
   font-weight: 100;
-  font-size: calc(20px + (40 - 20) * (100vw - 400px) / (1680 - 400));
+  font-size: calc(20px + (30 - 20) * (100vw - 400px) / (1680 - 400));
 }
 h5 {
   font-family: montserrat-light;

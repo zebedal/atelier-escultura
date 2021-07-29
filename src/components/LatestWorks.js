@@ -33,8 +33,8 @@ const LatestWorks = props => {
         <motion.div variants={container} initial={anim ? "start" : ""} animate="end" className={styles.wrapper}>
             <div className={styles['title-wrapper']}><h5 className={styles.title}>Últimos <span style={{ fontWeight: 'bold' }}>trabalhos</span></h5><div className={styles.line}></div></div>
             <div className={styles['img-wrapper']}>
-                <Link to={{ pathname: '/portfolio', filter: 'ultimos' }}><img src={latest1} alt="esculturas escultura esferovite" /></Link>
-                <Link to={{ pathname: '/portfolio', filter: 'ultimos' }}><img src={latest2} alt="esculturas escultura madeira" /></Link>
+                <Link to={{ pathname: '/portfolio', filter: 'ultimos', state: 'ultimos', id: 9}}><img src={latest1} alt="esculturas escultura esferovite" /></Link>
+                <Link to={{ pathname: '/portfolio', filter: 'ultimos', state: 'ultimos', id: 9 }}><img src={latest2} alt="esculturas escultura madeira" /></Link>
             </div>
             <div className={styles['controls-wrapper']} >
                 {/* <img src={seta} style={{ transform: 'rotate(180deg)' }} alt="" />

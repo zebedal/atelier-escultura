@@ -55,6 +55,7 @@ const container = {
     end: {
         opacity: 1,
         transition: {
+            delay: 0.5,
             duration: 1
         }
     },
@@ -62,7 +63,7 @@ const container = {
         opacity: 0,
         x: '-100vw',
         transition: {
-            ease: 'easeInOut'
+            ease: 'easeOut'
         }
     }
 }
@@ -121,6 +122,11 @@ const Homepage = props => {
             </section>
 
             <section className={`${styles.Section} ${styles.grid}`} style={{ marginTop: '50px' }}>
+
+                <h2 style={{textAlign: 'center'}}>Portfolio</h2>
+                <h3 style={{textAlign: 'center'}}>Consulte os nossos trabalhos</h3>
+                <br />
+                <p style={{textAlign: 'center'}}>No nosso portfólio poderá encontrar os mais variados projectos desde a escultura, cenografia, , desenho e impressão 3D. Trabalhamos ainda com diversas empresas na área do entretenimento onde produzimos adereços para efeitos especiais, decorações publicitárias e reprodução de peças através de moldes</p>
 
                 <InView as="div" onChange={(inView, entry) => handleInView(inView, entry)} className={`${styles.obs} `}>
                     <div className={styles['image-grid']} >
