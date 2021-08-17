@@ -17,101 +17,191 @@ export const IMAGES = {
     
     
     {
+      src: `${esculturasPath}1.jpg`,
+      srcGrid: `${esculturasPath}grid/1.jpg`,
+      caption: 'Burro em fibra de vidro'
+    },
+    {
+      src: `${esculturasPath}2.jpg`,
+      srcGrid: `${esculturasPath}grid/2.jpg`,
+      caption: 'Burro em barro'
+    },
+    {
+      src: `${esculturasPath}3.jpg`,
+      srcGrid: `${esculturasPath}grid/3.jpg`,
+      caption: 'Burro em barro'
+    },
+    {
       src: `${esculturasPath}4.jpg`,
       srcGrid: `${esculturasPath}grid/4.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura cabeça de gato e pintura para programa'
     },
     {
       src: `${esculturasPath}5.jpg`,
       srcGrid: `${esculturasPath}grid/5.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura de cabeça de vaca em esferovite para publicidade'
     },
     {
       src: `${esculturasPath}6.jpg`,
       srcGrid: `${esculturasPath}grid/6.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura de Cristo em poliuretano de alta densidade'
     },
-    
+    {
+      src: `${esculturasPath}7.jpg`,
+      srcGrid: `${esculturasPath}grid/7.jpg`,
+      caption: 'Escultura de Cristo em poliuretano de alta densidade'
+    },
     {
       src: `${esculturasPath}8.jpg`,
       srcGrid: `${esculturasPath}grid/8.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura de Cristo em poliuretano de alta densidade'
+    },
+    {
+      src: `${esculturasPath}9.jpg`,
+      srcGrid: `${esculturasPath}grid/9.jpg`,
+      caption: 'Escultura de Cristo para filme'
+    },
+    {
+      src: `${esculturasPath}10.jpg`,
+      srcGrid: `${esculturasPath}grid/10.jpg`,
+      caption: 'Escultura em esferovite de jogador para publicidade'
     },
     {
       src: `${esculturasPath}11.jpg`,
       srcGrid: `${esculturasPath}grid/11.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura em esferovite e cimento para série'
+    },
+    {
+      src: `${esculturasPath}12.jpg`,
+      srcGrid: `${esculturasPath}grid/12.jpg`,
+      caption: 'Escultura em esferovite e cimento para serie'
     },
     {
       src: `${esculturasPath}13.jpg`,
       srcGrid: `${esculturasPath}grid/13.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura em esferovite e massa para novela'
+    },
+    {
+      src: `${esculturasPath}14.jpg`,
+      srcGrid: `${esculturasPath}grid/14.jpg`,
+      caption: 'Escultura em esferovite e massa, Rei D. Dinis'
     },
     {
       src: `${esculturasPath}15.jpg`,
       srcGrid: `${esculturasPath}grid/15.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura em esferovite e resina no Palácio de Oeiras'
     },
     {
       src: `${esculturasPath}16.jpg`,
       srcGrid: `${esculturasPath}grid/16.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura em esferovite para série'
+    },
+    {
+      src: `${esculturasPath}17.jpg`,
+      srcGrid: `${esculturasPath}grid/17.jpg`,
+      caption: 'Escultura em esferovite para série'
+    },
+    {
+      src: `${esculturasPath}18.jpg`,
+      srcGrid: `${esculturasPath}grid/18.jpg`,
+      caption: 'Escultura em fibra e resina acrílica exposição temática museu em Timor'
     },
     {
       src: `${esculturasPath}19.jpg`,
       srcGrid: `${esculturasPath}grid/19.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura em fibra e resina acrílica museu em Timor'
     },
     {
       src: `${esculturasPath}20.jpg`,
       srcGrid: `${esculturasPath}grid/20.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura em fibra e resina acrílica museu em Timor'
     },
     {
       src: `${esculturasPath}21.jpg`,
       srcGrid: `${esculturasPath}grid/21.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura em gesso'
     },
     {
       src: `${esculturasPath}22.jpg`,
       srcGrid: `${esculturasPath}grid/22.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura em madeira de pinho'
     },
     {
       src: `${esculturasPath}23.jpg`,
       srcGrid: `${esculturasPath}grid/23.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura esferovite Hércules'
     },
     {
       src: `${esculturasPath}24.jpg`,
       srcGrid: `${esculturasPath}grid/24.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura madeira'
     },
     {
       src: `${esculturasPath}25.jpg`,
       srcGrid: `${esculturasPath}grid/25.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura peça presépio'
+    },
+    {
+      src: `${esculturasPath}26.jpg`,
+      srcGrid: `${esculturasPath}grid/26.jpg`,
+      caption: 'Esculturas em esferovite exposição temática museu Aljube'
     },
     {
       src: `${esculturasPath}27.jpg`,
       srcGrid: `${esculturasPath}grid/27.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Escultura em gesso'
     },
     {
       src: `${esculturasPath}28.jpg`,
       srcGrid: `${esculturasPath}grid/28.jpg`,
-      caption: 'Escultura 1'
+      caption: 'Esculturas em fibra epóxi em ISEG'
     },
     {
       src: `${esculturasPath}29.jpg`,
       srcGrid: `${esculturasPath}grid/29.jpg`,
-      caption: 'Escultura 3D em CNC por fresa'
+      caption: 'Esculturas para carros alegóricos de carnaval'
     },
     {
-      src: `${esculturasPath}29.jpg`,
-      srcGrid: `${esculturasPath}grid/29.jpg`,
-      caption: 'Escultura em esferovite massa e patine para publicidade'
+      src: `${esculturasPath}30.jpg`,
+      srcGrid: `${esculturasPath}grid/30.jpg`,
+      caption: 'Estudo em barro auto retrato'
+    },
+    {
+      src: `${esculturasPath}31.jpg`,
+      srcGrid: `${esculturasPath}grid/31.jpg`,
+      caption: 'Estudo escultura em ripas madeira pinho'
+    },
+    {
+      src: `${esculturasPath}32.jpg`,
+      srcGrid: `${esculturasPath}grid/32.jpg`,
+      caption: 'Estudo modelação em barro para samurai'
+    },
+    {
+      src: `${esculturasPath}33.jpg`,
+      srcGrid: `${esculturasPath}grid/33.jpg`,
+      caption: 'Modelação cabeça Papa Francisco em escala pequena'
+    },
+    {
+      src: `${esculturasPath}34.jpg`,
+      srcGrid: `${esculturasPath}grid/34.jpg`,
+      caption: 'Pormenor compsição em barro das esculturas para a Igreja dos pastorinhos'
+    },
+    {
+      src: `${esculturasPath}35.jpg`,
+      srcGrid: `${esculturasPath}grid/35.jpg`,
+      caption: 'Pormenor da composição escultórica na Igreja dos Pastorinhos'
+    },
+    {
+      src: `${esculturasPath}36.jpg`,
+      srcGrid: `${esculturasPath}grid/36.jpg`,
+      caption: 'Pormenor modelação em barro para a composição escultórica na Igreja dos Pastorinhos'
+    },
+    {
+      src: `${esculturasPath}37.jpg`,
+      srcGrid: `${esculturasPath}grid/37.jpg`,
+      caption: 'Presépio Natal em fibra resina e tecido serapilheira'
     }
+    
   ],
   pinturas: [
     {
@@ -779,6 +869,21 @@ export const IMAGES = {
       src: `${cenografiaPath}92.jpg`,
       srcGrid: `${cenografiaPath}grid/92.jpg`,
       caption: 'Roda de bicicleta com 4,2 metros para museu'
+    },
+    {
+      src: `${cenografiaPath}93.jpg`,
+      srcGrid: `${cenografiaPath}grid/93.jpg`,
+      caption: 'Produção de faca falsa para efeitos especiais'
+    },
+    {
+      src: `${cenografiaPath}94.jpg`,
+      srcGrid: `${cenografiaPath}grid/94.jpg`,
+      caption: 'Produção de pistola em borracha para efeitos especiais'
+    },
+    {
+      src: `${cenografiaPath}95.jpg`,
+      srcGrid: `${cenografiaPath}grid/95.jpg`,
+      caption: 'Reprodução de espingardas G3 para filme'
     }
 
   ],
@@ -798,11 +903,11 @@ export const IMAGES = {
       srcGrid: `${cortePath}/grid/3.jpg`,
       caption: 'Corte e gravação de acrílico a laser '
     },
-    /* {
+    {
       src: `${cortePath}4.jpg`,
       srcGrid: `${cortePath}/grid/4.jpg`,
-      caption: 'Corte e gravação de acrílico a laser '
-    }, */
+      caption: 'Corte CNC esferovite 2D e 3D'
+    }, 
     {
       src: `${cortePath}5.jpg`,
       srcGrid: `${cortePath}/grid/5.jpg`,
@@ -817,6 +922,36 @@ export const IMAGES = {
       src: `${cortePath}7.jpg`,
       srcGrid: `${cortePath}/grid/7.jpg`,
       caption: 'Corte letras em acrílico e madeira a laser para publicidade'
+    },
+    {
+      src: `${cortePath}8.jpg`,
+      srcGrid: `${cortePath}/grid/8.jpg`,
+      caption: 'Corte CNC letras'
+    },
+    {
+      src: `${cortePath}9.jpg`,
+      srcGrid: `${cortePath}/grid/9.jpg`,
+      caption: 'Corte CNC letras'
+    },
+    {
+      src: `${cortePath}10.jpg`,
+      srcGrid: `${cortePath}/grid/10.jpg`,
+      caption: 'Corte e quinagem de acrílicos'
+    },
+    {
+      src: `${cortePath}11.jpg`,
+      srcGrid: `${cortePath}/grid/11.jpg`,
+      caption: 'Corte laser'
+    },
+    {
+      src: `${cortePath}12.jpg`,
+      srcGrid: `${cortePath}/grid/12.jpg`,
+      caption: 'Corte laser'
+    },
+    {
+      src: `${cortePath}13.jpg`,
+      srcGrid: `${cortePath}/grid/13.jpg`,
+      caption: 'Peça 3D em cnc por fresa'
     }
   ],
   
@@ -1515,6 +1650,26 @@ export const IMAGES = {
       srcGrid: `${moldesPath}grid/10.jpg`,
       caption: 'Tiragem de peças em fibra'
     },
+    {
+      src: `${moldesPath}11.jpg`,
+      srcGrid: `${moldesPath}grid/11.jpg`,
+      caption: 'Molde espingarda'
+    },
+    {
+      src: `${moldesPath}12.jpg`,
+      srcGrid: `${moldesPath}grid/12.jpg`,
+      caption: 'Molde espingarda'
+    },
+    {
+      src: `${moldesPath}13.jpg`,
+      srcGrid: `${moldesPath}grid/13.jpg`,
+      caption: 'Molde pistola'
+    },
+    {
+      src: `${moldesPath}14.jpg`,
+      srcGrid: `${moldesPath}grid/14.jpg`,
+      caption: 'Molde pistola'
+    }
   ]
 
 

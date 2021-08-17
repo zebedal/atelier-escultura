@@ -48,26 +48,9 @@ export const CATEGORIAS = {
             id: 4
         },
         {
-            categoria: 'Corte 2D e 3D',
+            categoria: 'Corte 2D, 3D e Laser',
             filtro: 'corte',
             id: 5,
-            subCategorias: [
-                {
-                    categoria: 'Gravação',
-                    filtro: 'gravacao',
-                    id: 51
-                },
-                {
-                    categoria: 'CNC Fresa',
-                    filtro: 'fresa',
-                    id: 52
-                },
-                {
-                    categoria: 'CNC Esferovite',
-                    filtro: 'corte_esferovite',
-                    id: 53
-                }
-            ]
         },
         {
             categoria: 'Adereços de Cenografia',
@@ -78,11 +61,6 @@ export const CATEGORIAS = {
             categoria: 'Moldes',
             filtro: 'moldes',
             id: 7,
-        },
-        {
-            categoria: 'Laser',
-            filtro: 'laser',
-            id: 8,
         },
         {
             categoria: 'Últimos Trabalhos',

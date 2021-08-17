@@ -9,7 +9,7 @@
 
 .image-wrapper {
     position: relative;
-    width: 30%;
+    width: 50%;
     height: 100%;
     margin: 0 auto;
 }
@@ -158,7 +158,7 @@
 }
 
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
     .Section.grid {
         margin-top: 0 !important;
         padding-top: 80px;
@@ -166,7 +166,7 @@
     .image-wrapper {
         position: absolute;
         bottom: 0;
-        right: 0;
+        right: -30%;
         height: 79%;
         width: 50%;
     }
@@ -178,9 +178,9 @@
         top: 40%;  
     }
 }
-@media only screen and (min-width: 431px) and (max-width: 750px)  {
+@media only screen and (min-width: 451px) and (max-width: 750px)  {
     .image-wrapper {
-        margin-right: 50px;
+        margin-right: -50px;
     }
    .social {
     left: 100%;
@@ -188,7 +188,7 @@
    }
    
 }
-@media screen and (max-width: 750px) {
+@media(max-width: 750px) {
     .image-grid {
         height: auto !important;
         grid-template-rows: repeat(3, 125px);
@@ -198,7 +198,8 @@
     }
 }
 
-@media screen and (max-width: 920px) {
+@media  (max-width: 920px) {
+    
     .image-grid {
         height: auto !important;
         grid-template-columns: repeat(6, 1fr) !important;
@@ -220,4 +221,13 @@
    .text-paragraph {
        margin-right: 0;
    }
+   .image-wrapper {
+       width: 100% !important;
+   }
+}
+@media (max-width: 1200px) {
+    .image-wrapper {
+        width: 70%;
+
+    }
 }
