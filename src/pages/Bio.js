@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../components/UI/Button';
 import styles from './Bio.module.css'
-import { clientes } from '../data/CLIENTES'
+import { clientes } from '../../public/data/CLIENTES'
 import { motion } from 'framer-motion';
 
 const Bio = props => {

@@ -966,6 +966,27 @@ export const IMAGES = {
       srcGrid: `${ultimosTrabalhosPath}grid/2.jpg`,
       caption: 'Roda de bicicleta com 4,2 metros para museu'
     },
+    {
+      src: `${ultimosTrabalhosPath}3.jpg`,
+      srcGrid: `${ultimosTrabalhosPath}grid/3.jpg`,
+      caption: 'Produção de faca falsa para efeitos especiais'
+    },
+    {
+      src: `${ultimosTrabalhosPath}4.jpg`,
+      srcGrid: `${ultimosTrabalhosPath}grid/4.jpg`,
+      caption: 'Produção de pistola em borracha para efeitos especiais'
+    },
+    {
+      src: `${ultimosTrabalhosPath}5.jpg`,
+      srcGrid: `${ultimosTrabalhosPath}grid/5.jpg`,
+      caption: 'Reprodução de espingardas G3 para filme'
+    },
+    {
+      src: `${ultimosTrabalhosPath}6.jpg`,
+      srcGrid: `${ultimosTrabalhosPath}grid/6.jpg`,
+      caption: 'Molde de pistola'
+    }
+    
   ],
   barro: [
     {
