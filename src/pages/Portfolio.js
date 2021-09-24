@@ -3,8 +3,8 @@ import { useLocation } from 'react-router-dom';
 import styles from './Portfolio.module.css'
 import PortfolioBox from '../components/Portfolio/PortfolioBox'
 import { SRLWrapper } from "simple-react-lightbox";
-import { IMAGES } from '../../public/data/IMAGES';
-import { CATEGORIAS } from '../../public/data/CATEGORIAS';
+import { IMAGES } from '../data/IMAGES';
+import { CATEGORIAS } from '../data/CATEGORIAS';
 import Spinner from '../components/UI/Spinner';
 import GalleryFilter from '../components/Portfolio/GalleryFilter';
 import { motion } from 'framer-motion'

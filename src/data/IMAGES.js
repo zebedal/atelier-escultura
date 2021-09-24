@@ -24,12 +24,12 @@ export const IMAGES = {
     {
       src: `${esculturasPath}2.jpg`,
       srcGrid: `${esculturasPath}grid/2.jpg`,
-      caption: 'Burro em barro'
+      caption: 'Busto em barro'
     },
     {
       src: `${esculturasPath}3.jpg`,
       srcGrid: `${esculturasPath}grid/3.jpg`,
-      caption: 'Burro em barro'
+      caption: 'Busto em barro'
     },
     {
       src: `${esculturasPath}4.jpg`,
